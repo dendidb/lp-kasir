@@ -268,7 +268,10 @@ body {
   margin: 0 0 20px;
   font-size: 21px;
   line-height: 1.6;
+}
 
+.solution-list::before {
+  content: url();
 }
 
 .solution-list:last-child {
@@ -635,77 +638,3 @@ body {
 }
 
 /* /testimonials area */
-
-/* scaleup area */
-.scale-up-area {
-  padding: 40px 0 0;
-  background-image: linear-gradient(140deg, rgba(158, 207, 144, .6),rgba(158, 207, 144, .4)), url(../img/scaleup/scaleup.png);
-  background-size: cover;
-  width: 100%;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.scale-up-area .container::after {
-  display: table;
-  content: '';
-  clear: both;
-}
-
-.scale-up-text {
-  float: left;
-  width: 50%;
-  padding: 20px 20px;
-}
-
-.circle {
-  position: relative;
-}
-
-/*.scale-up-text::before {
-  content: '';
-  width: 50px;
-  height: 50px;
-  background-color: red;
-  display: inline-block;
-
-}*/
-
-.scale-up-title {
-  position: absolute;
-  top: 50%;
-  left: 20px;
-  font-size: 32px;
-  font-weight: 600;
-  color: #000;
-}
-
-.scale-up-img {
-  float: right;
-  width: 50%;
-  position: absolute;
-  right: 0;
-  top: -10%;
-}
-
-.scale-up-img img {
-  width: 200px;
-  display: block;
-
-  /*width: 200px;*/
-}
-/* /scaleup area */
-
-
-
-
-
-/*.suitable-card h3 {
-  margin: 0;
-  z-index: 2;
-  position: absolute;
-  bottom: 20px;
-  left: 140px;
-  color: #fff;
-  font-weight: 600;
-}*/
