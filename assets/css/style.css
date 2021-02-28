@@ -723,3 +723,18 @@ body {
 }
 
 /* /testimonials area */
+
+
+/* footer area */
+.footer-area {
+  padding: 120px 0;
+  background-color: #172538;
+  color: #fff;
+}
+
+.footer-item {
+  background-color: salmon;
+}
+
+
+/* /footer area */
