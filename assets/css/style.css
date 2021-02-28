@@ -73,8 +73,10 @@ body {
 .banner-area {
   position: relative;
   z-index: 1;
-  padding: 40px 0 80px;
-  background-image: linear-gradient(140deg,
+  padding: 80px 0 80px;
+  /*background-image: linear-gradient(140deg,
+    rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.4)), url(../img/banner/hero-banner.png);*/
+    background-image: linear-gradient(to top,
     rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.4)), url(../img/banner/hero-banner.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -363,10 +365,58 @@ body {
   top: 8px;
   left: 70px;
 }
-
-
-
 /* /top feature area */
+
+/* obstacle area */
+.obstacle-area {
+  padding: 40px 0 240px 0;
+  background-image: url(../img/banner/hero-banner3.png);\
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.obstacle-heading {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.obstacle-title {
+  font-weight: 600;
+  color: #fff;
+  font-size: 42px;
+}
+
+.obstacle-card {
+  text-align: center;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px 1px rgb(188 188 188 / 32%);
+  padding: 20px;
+  max-width: 220px;
+  min-height: 180px;
+  margin-right: 60px;
+}
+
+/*.obstacle-card:last-child {
+  transform: translateY(-40px);
+  background-color: green;
+}*/
+
+.obstacle-card img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.obstacle-item {
+  margin: 0;
+  font-size: 21px;
+  color: #323232;
+  font-weight: 500;
+}
+
+
+/* /obstacle area */
 
 /* suitable area */
 .suitable-area {
