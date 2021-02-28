@@ -69,31 +69,13 @@ body {
   text-decoration: none;
 }
 
-/* header area*/
-.header-area {
-  /*padding: 14px 0;*/
-  position: absolute;
-}
-
-.brand {
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.header-area h1{
-  margin: 0;
-  color: red;
-  font-weight: 600;
-}
-/* /header area*/
-
 /* banner area */
 .banner-area {
   position: relative;
   z-index: 1;
-  background-color: #318c17;
-  padding: 240px 20px 0 0
-  /*background-image: url(../img/banner/hero-banner.png);*/
+  padding: 40px 0 80px;
+  background-image: linear-gradient(140deg,
+    rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.4)), url(../img/banner/hero-banner.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -105,10 +87,18 @@ body {
 }
 
 .banner-text {
-  padding: 80px 60px 0 0;
-  width: 50%;
+  text-align: center;
+  padding: 40px 120px;
+  width: 100%;
   float: left;
-  background-color: #318c17;
+  /*border: solid 1px #318c17;*/
+  /*background-color: #318c17;*/
+}
+
+.banner-quest {
+  font-size: 19px;
+  font-weight: 400;
+  color: #fff;
 }
 
 .banner-title {
@@ -224,14 +214,33 @@ body {
 .problem-menu {
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 .problem-list {
-  font-size: 21px;
-  font-weight: 400;
   margin: 0 0 20px;
   line-height: 1.6;
+  position: relative;
+}
 
+.problem-list:last-child {
+  margin-bottom: 0;
+}
+
+.problem-list span {
+  position: absolute;
+  top: 4px;
+  left: 40px;
+  padding-left: 10px;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.problem-list::before {
+  content: url(../img/icons/cross_Images/cross.png);
+  width: 10px;
+  height: 10px;
+  display: inline-block;
 }
 
 /* /problem area */
@@ -265,17 +274,26 @@ body {
 }
 
 .solution-list {
-  margin: 0 0 20px;
+  margin: 0 0 32px;
   font-size: 21px;
   line-height: 1.6;
+  position: relative;
 }
 
 .solution-list::before {
-  content: url();
+  content: url(../img/icons/cross_Images/checklist.png);
+  width: 50px;
+  height: 50px;
 }
 
 .solution-list:last-child {
   margin-bottom: 0;
+}
+
+.solution-list span {
+  position: absolute;
+  top: 8px;
+  left: 70px;
 }
 
 .solution-title {
@@ -288,7 +306,7 @@ body {
 
 /* top feature area */
 .top-feature-area {
-  padding: 40px 120px 0;
+  padding: 40px 0;
   background-color: #eff5ef;
 }
 
@@ -310,27 +328,43 @@ body {
 }
 
 .top-feature-img {
-  width: 50%;
+  width: 40%;
   float: left;
 }
 
 .top-feature-menu {
   float: right;
-  width: 50%;
+  width: 60%;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-left: 40px;
   font-size: 21px;
 }
 
 .top-feature-list {
   margin: 0 0 20px;
   line-height: 1.6;
+  font-size: 21px;
+  position: relative;
 }
 
 .top-feature-list:last-child {
   margin-bottom: 0;
 }
+
+.top-feature-list::before {
+  content: url(../img/icons/cross_Images/checklist.png);
+  width: 5px;
+  height: 5px;
+}
+
+.top-feature-list span {
+  position: absolute;
+  top: 8px;
+  left: 70px;
+}
+
+
 
 /* /top feature area */
 
@@ -405,7 +439,8 @@ body {
 .sale-area {
   padding: 120px 0;
   /*background-image: linear-gradient(140deg, rgba(49, 140, 23, 1),rgba(49, 140, 23, 0.9),rgba(49, 140, 23, 0.9),rgba(49, 140, 23, 0.1), rgba(49, 140, 23, 0.4), rgba(49, 140, 23, 0.3), rgba(49, 140, 23, 0.2), rgba(49, 140, 23, 0.1)), url("../img/sale/sale.png");*/
-  background-image: linear-gradient(140deg, rgba(0, 0, 0, .1),rgba(0, 0, 0, .2),rgba(0, 0, 0, .3),rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), rgba(49, 140, 23, 0.1)), url("../img/sale/sale.png");
+  background-image: linear-gradient(140deg,
+    rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.4)), url("../img/sale/sale.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
