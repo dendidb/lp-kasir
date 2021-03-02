@@ -95,7 +95,16 @@
 /* /banner area */
 
 /* /problem area */
+@media (max-width:1199.98px) {
+  .problem-area {
+    padding: 40px 0;
+  }
+}
+
 @media (max-width:991.98px) {
+  .problem-area {
+    padding: 40px 0;
+  }
   .problem-text {
     width: 100%;
   }
@@ -110,6 +119,12 @@
   }
   .problem-img {
     display: none;
+  }
+}
+
+@media (max-width: 575.86px) {
+  .problem-area {
+    padding: 40px 0;
   }
 }
 
@@ -152,10 +167,14 @@
     width: 100%;
   }
   .solution-list span {
-   /*margin: 0 0 40px; */
    line-height: 26px;
    font-size: 16px;
  }
+}
+@media (max-width: 575.86px) {
+  .solution-img {
+    margin: 0 0 20px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -177,7 +196,7 @@
 
 @media (max-width: 767.98px) {
   .top-feature-area {
-    padding: 24px 16px;
+    padding: 40px 0;
     margin: 60px 0;
   }
   .section-title h3 {
@@ -265,6 +284,7 @@
     padding: 20px 24px;
   }
   .suitable-title {
+    margin: 0;
     font-size: 24px;
     text-align: center;
   }
@@ -333,6 +353,12 @@
   /* /sale area */
 
   /* footer area */
+
+  @media (max-width: 991.98px) {
+    .footer-area {
+      padding: 40px 0;
+    }
+  }
 
   @media (max-width: 575.88px) {
     .footer-area {
