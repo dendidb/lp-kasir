@@ -1,6 +1,11 @@
  /*container area */
 
- @media (max-width:1199.98px) {
+ @media (max-width: 991.98px) {
+  .btn-primary:last-child:before {
+    font-size: 18px;
+  }
+}
+@media (max-width:1199.98px) {
   .container {
     padding: 0 32px;
   }
@@ -34,8 +39,10 @@
   }
   .banner-quest {
     font-size: 16px;
+    line-height: 1.5;
   }
   .banner-title {
+    line-height: 1.5;
     font-size: 32px;
   }
   .banner-desc {
@@ -83,10 +90,11 @@
 }
 @media (max-width: 320px) {
   .banner-title {
-    font-size: 24px;
+    font-size: 28px;
   }
   .banner-desc {
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 1.8;
   }
   .btn-primary {
     font-size: 12px;
@@ -136,7 +144,7 @@
     font-size: 24px;
   }
   .problem-list span {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -181,6 +189,10 @@
   .solution-img {
     margin: 0 0 20px;
   }
+  .solution-list span {
+   line-height: 26px;
+   font-size: 16px;
+ }
 }
 
 @media (max-width: 320px) {
@@ -225,6 +237,10 @@
   .top-feature-area {
     padding: 40px 0;
   }
+  .top-feature-title {
+    font-size: 24px;
+    margin: 0 0 32px;
+  }
   .top-feature-list span {
     font-size: 14px;
   }
@@ -240,6 +256,7 @@
   }
   .obstacle-heading {
     font-size: 32px;
+    padding: 0;
   }
   .obstacle-title {
     margin: 0 0 20px;
@@ -311,6 +328,9 @@
     border-radius: 12px;
     overflow: hidden;
   }
+  .suitable-title {
+    margin: 0 0 20px;
+  }
 }
 
 /* /suitable area */
@@ -351,8 +371,15 @@
     .main-subtitle {
       font-size: 48px;
     }
+
+    .desc-sale-area {
+      padding: 0 14px;
+    }
     .limited {
       font-size: 12px;
+    }
+    .btn-sale {
+      padding: 12px 24px;
     }
   }
 
