@@ -96,7 +96,7 @@
     font-size: 14px;
     line-height: 1.8;
   }
-  .btn-primary {
+  .btn-primar {
     font-size: 12px;
   }
 }
@@ -186,6 +186,9 @@
   }
 }
 @media (max-width: 575.86px) {
+  .solution-area {
+    padding: 20px 0;
+  }
   .solution-img {
     margin: 0 0 20px;
   }
@@ -265,7 +268,7 @@
   .row {
     text-align: center;
   }
-  .col-3 {
+  .col-4 {
     width: 50%;
   }
   .obstacle-card {
@@ -273,12 +276,26 @@
   }
 }
 
-@media (max-width: 575.86px) {
-  .col-3 {
+@media (max-width: 767.98px) {
+  .col-4 {
     width: 50%;
   }
   .obstacle-card {
-    margin: 12px;
+    width: 50%;
+    /*margin: 0 auto 20px;*/
+  }
+}
+
+@media (max-width: 575.86px) {
+  .col-4 {
+    width: 100%;
+  }
+  .obstacle-title {
+    margin: 0 0 42px;
+  }
+  .obstacle-card {
+    width: 100%;
+    margin: 20px auto 0;
   }
   .obstacle-item {
     font-size: 16px;
@@ -286,7 +303,7 @@
 }
 
 @media (max-width: 320px) {
-  .col-3 {
+  .col-4 {
     width: 100%;
   }
   .obstacle-card {
@@ -307,7 +324,7 @@
     padding: 20px 24px;
   }
   .suitable-title {
-    margin: 0;
+    margin: 0 0 20px;
     font-size: 24px;
     text-align: center;
   }
