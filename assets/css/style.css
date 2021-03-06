@@ -315,6 +315,32 @@ body {
 
 /* /problem area */
 
+/* question area */
+
+.question-area {
+  padding: 40px 0;
+}
+
+.question-area .container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.question-text {
+  float: right;
+  width: 50%;
+}
+
+.question-list {
+  float: right;
+  width: 50%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* /question area */
 
 /* solution area */
 .solution-area {
@@ -425,14 +451,12 @@ body {
 
 .top-feature-list::before {
   content: url(../img/icons/cross_Images/checklist.png);
-  width: 5px;
-  height: 5px;
 }
 
 .top-feature-list span {
   position: absolute;
   top: 6px;
-  left: 60px;
+  left: 65px;
 }
 /* /top feature area */
 
@@ -698,6 +722,7 @@ body {
 }
 
 .testimonials-title {
+  margin: 0 0 20px;
   font-size: 42px;
   font-weight: 600;
   text-align: center;

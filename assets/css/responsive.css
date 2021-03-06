@@ -90,13 +90,13 @@
 }
 @media (max-width: 320px) {
   .banner-title {
-    font-size: 28px;
+    font-size: 24px;
   }
   .banner-desc {
     font-size: 14px;
     line-height: 1.8;
   }
-  .btn-primar {
+  .btn-primary {
     font-size: 12px;
   }
 }
@@ -199,6 +199,9 @@
 }
 
 @media (max-width: 320px) {
+  .solution-area {
+    margin: 0;
+  }
   .solution-title {
     font-size: 24px;
   }
@@ -218,7 +221,7 @@
 @media (max-width: 767.98px) {
   .top-feature-area {
     padding: 40px 0;
-    margin: 60px 0;
+    margin: 0;
   }
   .section-title h3 {
     font-size: 32px;
@@ -233,6 +236,9 @@
   }
   .top-feature-list {
     font-size: 18px;
+  }
+  .top-feature-list span {
+    /*top: 65px;*/
   }
 }
 
@@ -375,6 +381,7 @@
     font-size: 46px;
     }*/
     .desc-sale-area {
+      text-align: center;
       float: left;
       padding: 0 24px;
       width: 100%;
@@ -395,12 +402,55 @@
     .limited {
       font-size: 12px;
     }
+    .price {
+      font-size: 26px;
+    }
+    .discount {
+      font-size: 28px;
+    }
     .btn-sale {
       padding: 12px 24px;
     }
   }
 
   /* /sale area */
+
+  /* testimonials area*/
+  @media (max-width: 575.86px) {
+    .testimonials-area .owl-carousel {
+      padding: 0;
+    }
+    .testimonials-area .owl-next::after,.testimonials-area .owl-prev::after {
+      display: none;
+    }
+    .owl-dots {
+      margin-top: 0;
+    }
+    .item-img {
+      max-width: 100%;
+      padding: 0;
+    }
+    .item-text {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .testimonials-title {
+      font-size: 26px;
+      margin: 0 0 20px;
+    }
+    .span-green {
+      color: #318C17;
+      font-size: 26px;
+      font-weight: 600;
+    }
+    .item-desc {
+      font-size: 14px;
+    }
+  }
+
+  /* /testimonials area*/
 
   /* footer area */
 
