@@ -27,3 +27,29 @@ $('.owl-carousel').owlCarousel({
     }
   }
 });
+
+$(".service-carousel").owlCarousel({
+    loop: true,
+    autoplay: true,
+    lazyLoad: true,
+    autoplayTimeout: 2000,
+    smartSpeed: 4000,
+    autoplayHoverPause: true,
+    nav: true,
+    dots: true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            margin: 20,
+            nav: false
+        },
+        600: {
+            items: 2,
+            margin: 20
+        },
+        1000: {
+            items: 3
+        }
+    }
+})
