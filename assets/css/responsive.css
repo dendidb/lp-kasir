@@ -45,9 +45,9 @@
     line-height: 1.5;
     font-size: 32px;
   }
-  .banner-desc {
+/*  .banner-desc {
     font-size: 16px;
-  }
+  }*/
   .btn-primary {
     font-size: 16px;
   }
@@ -92,10 +92,10 @@
   .banner-title {
     font-size: 24px;
   }
-  .banner-desc {
+/*  .banner-desc {
     font-size: 14px;
     line-height: 1.8;
-  }
+  }*/
   .btn-primary {
     font-size: 12px;
   }
@@ -239,6 +239,12 @@
   }
   .top-feature-list span {
     /*top: 65px;*/
+  }
+}
+
+@media (max-width: 575.88px) {
+  .top-feature-menu {
+    margin: 40px 0;
   }
 }
 
@@ -451,6 +457,18 @@
   }
 
   /* /testimonials area*/
+
+  /* benefits area  */
+  @media (max-width: 991.98px) {
+    .benefits-area {
+
+    }
+
+    .benefits-img {
+      display: none;
+    }
+  }
+  /* /benefits area  */
 
   /* footer area */
 
