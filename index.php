@@ -21,7 +21,7 @@
       <div class="banner-text">
         <h3 class="banner-quest" data-aos="zoom-out-down" data-aos-delay="500">Software Aplikasi Kasir Toko dan Mini Market</h3>
         <h2 class="banner-title" data-aos="fade-down" data-aos-delay="700">Solusi mengelola toko menjadi lebih mudah dengan dana murah</h2>
-        <a href="https://api.whatsapp.com/send?phone=085864772039&text=Halo%20RZF%20Software,%20Saya%20ingin%20promo%20Aplikasi%20Kasirnya" class="btn btn-banner" data-aos="fade-down" data-aos-delay="1300">Ya, Saya Mau</a>
+        <a href="https://api.whatsapp.com/send?phone=6285864772039&text=Halo%20RZF%20Software,%20Saya%20ingin%20promo%20Aplikasi%20Kasirnya" class="btn btn-banner" data-aos="fade-down" data-aos-delay="1300">Ya, Saya Mau</a>
       </div>
     </div>
   </div>
@@ -248,8 +248,8 @@
       </div>
       <div class="desc-sale-area">
         <h3 class="title-sale" data-aos="zoom-in-up" data-aos-delay="700">Promo Eksklusif</h3>
-        <p class="desc-sale" data-aos="zoom-out-right" data-aos-delay="700">Dapatkan promo diskon terbatas dari kami, klik dapatkan promo</p>
-        <a href="https://api.whatsapp.com/send?phone=085864772039&text=Halo%20RZF%20Software,%20Saya%20ingin%20promo%20Aplikasi%20Kasirnya" class="btn btn-sale" data-aos="zoom-in-up" data-aos-delay="700">
+        <p class="desc-sale" data-aos="zoom-out-right" data-aos-delay="700">Dapatkan promo diskon terbatas dari kami, klik dapatkan promo di bawah!</p>
+        <a href="https://api.whatsapp.com/send?phone=6285864772039&text=Halo%20RZF%20Software,%20Saya%20ingin%20promo%20Aplikasi%20Kasirnya" class="btn btn-sale" data-aos="zoom-in-up" data-aos-delay="700">
         Dapatkan Promo</a>
       </div>
     </div>
@@ -261,17 +261,6 @@
     <div class="container">
       <h3 class="testimonials-title">Mereka yang telah menggunakan</h3>
       <div class="owl-carousel">
-        <div class="item">
-          <div class="item-img">
-            <img src="assets/img/testimonials/7.png" alt="Testimonials Image"/>
-          </div>
-          <div class="item-text">
-            <p class="item-desc">“Aplikasinya sangat membantu, simple, mudah dipelajari, dan tidak bikin ribet.”</p>
-            <p class="item-info"><b>Indah Rasati, S.Si., Apt</b></p>
-            <p class="item-info">Penanggung Jawab Apotek Afiyaa</p>
-            <p class="item-info">Darma - Kuningan</p>
-          </div>
-        </div>
         <div class="item">
           <div class="item-img">
             <img src="assets/img/testimonials/8.jpg" alt="Testimonials Image"/>
@@ -307,17 +296,6 @@
         </div>
         <div class="item">
           <div class="item-img">
-            <img src="assets/img/testimonials/12.jpg" alt="Testimonials Image"/>
-          </div>
-          <div class="item-text">
-            <p class="item-desc">“Cukup membantu. Data jadi tersusun rapi, sehingga lebih mudah mencari data customer”</p>
-            <p class="item-info"><b>Yuyun Artika</b></p>
-            <p class="item-info">Owner Beezam Honey</p>
-            <p class="item-info">Darma - Kuningan</p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="item-img">
             <img src="assets/img/testimonials/14.jpeg" alt="Testimonials Image"/>
           </div>
           <div class="item-text">
@@ -345,52 +323,19 @@
           <div class="item-text">
             <p class="item-desc">“Terima kasih, pelayanannya sabar dan bersahabat, Insya Allah nanti bisa kerjasama lagi”</p>
             <p class="item-info"><b>Sofa</b></p>
-            <p class="item-info">Owner Pas Kosmetik</p>
+            <p class="item-info">Owner Fas Kosmetik</p>
             <p class="item-info">Cirebon - Jawa Barat</p>
           </div>
         </div>
         <div class="item">
           <div class="item-img">
-            <img src="assets/img/testimonials/17.jpg" alt="Testimonials Image"/>
-          </div>
-          <div class="item-text">
-            <p class="item-desc">“Membuat usaha anda menjadi Luar Biasa...”</p>
-            <p class="item-info"><b>Dadan Aminudin</b></p>
-            <p class="item-info">Manajer Finance Mayang Catering</p>
-            <p class="item-info">Kuningan - Jawa Barat</p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="item-img">
-            <img src="assets/img/testimonials/19.jpg" alt="Testimonials Image"/>
-          </div>
-          <div class="item-text">
-            <p class="item-desc">“Pelayanannya ramah dan memuaskan, jempol deh pokoknya.”</p>
-            <p class="item-info"><b>Momon</b></p>
-            <p class="item-info">Owner PT. BULOG NUSANTARA</p>
-            <p class="item-info">Darma - Kuningan</p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="item-img">
-            <img src="assets/img/testimonials/19.jpg" alt="Testimonials Image"/>
+            <img src="assets/img/testimonials/19.png" alt="Testimonials Image"/>
           </div>
           <div class="item-text">
             <p class="item-desc">“Saya benar-benar puas dengan hasil karya RZF Software. *6 (Bintang Enam) untuk Bapak dan Tim. Tidak salah saya pilih RZF Software. Semoga RZF Software semakin maju dan di pakai semua pelaku usaha, aamiin.”</p>
             <p class="item-info"><b>Misbahul Munir</b></p>
-            <p class="item-info">Owner PT. BULOG NUSANTARA</p>
-            <p class="item-info">Oku Timur -Sumatera Selatan</p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="item-img">
-            <img src="assets/img/testimonials/20.jpg" alt="Testimonials Image"/>
-          </div>
-          <div class="item-text">
-            <p class="item-desc">“Rekomended banget RZF Software buat kamu yg bisnisnya pengen makin rapih dan bertumbuh. Pastiin kamu pake RZF software.”</p>
-            <p class="item-info"><b>Faisal Agus M</b></p>
-            <p class="item-info">Owner Berkah Grup</p>
-            <p class="item-info">Darma - Kuningan</p>
+            <p class="item-info">Owner Toko Tokoku</p>
+            <p class="item-info">Oku Timur - Sumatera Selatan</p>
           </div>
         </div>
       </div>
@@ -586,13 +531,6 @@
           <div class="documentations-card">
             <div class="documentations-img">
               <img src="assets/img/documentations/5.png" alt=""/>
-            </div>
-          </div>
-        </div>
-        <div class="documentations-item">
-          <div class="documentations-card">
-            <div class="documentations-img">
-              <img src="assets/img/documentations/6.png" alt=""/>
             </div>
           </div>
         </div>
