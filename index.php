@@ -1,3 +1,4 @@
+<? require 'data.php'; ?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -612,7 +613,7 @@
     <div class="container">
       <h3 class="form-heading" data-aos="zoom-in-right" data-aos-duration="900">Pesan Aplikasi Kasir toko dan mini market sekarang</h3>
       <div class="form-section">
-        <form action="#" method="POST" class="form-input" data-aos="fade-up" data-aos-duration="1300">
+        <form action="konfirmasi-pembayaran.php" method="POST" class="form-input" data-aos="fade-up" data-aos-duration="1300">
           <h3 class="form-title">Data Penerima :</h3>
           <div class="input-row">
             <input type="text" name="nama"  placeholder="Nama Anda" autocomplete="off" class="input-item" required="required"/>
@@ -630,7 +631,6 @@
             <button type="submit" class="btn btn-form">Beli Sekarang</button>
           </div>
         </form>
-        <!-- <a class="btn-brand confirmation m-0" href="https://api.whatsapp.com/send?phone=6285864772039&text=Saya%20mau%20melakukan%20konfirmasi%20pembayaran.%0A%0ANama%20%3A%20<?= $_SESSION["nama"]; ?>%0AProduk%20%3A%20Aplikasi%20RZF%20Konveksi%0ANama%20Usaha%20%3A%20<?= $_SESSION["nama_usaha"]; ?>%0AEmail%20%3A%20<?= $_SESSION["email"]; ?> ?>" target="blank">Konfirmasi Pembayaran</a> -->
       </div>
     </div>
   </div>

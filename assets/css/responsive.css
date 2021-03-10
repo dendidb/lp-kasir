@@ -215,6 +215,12 @@
  }
 }
 
+@media (max-width: 360px) {
+  .solution-txt {
+    padding-left: 0;
+  }
+}
+
 @media (max-width: 320px) {
   .solution-area {
     margin: 0;
@@ -365,6 +371,12 @@
   }
   .suitable-card img {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .suitable-card {
+    margin: 20px 0;
   }
 }
 

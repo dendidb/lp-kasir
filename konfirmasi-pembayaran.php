@@ -1,3 +1,4 @@
+<? require 'data.php'; ?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -32,7 +33,7 @@
               </div>
               <div class="confirmation-link">
                 <p>Jika telah melakukan transaksi pembayaran, silakan konfirmasi pembayaran Anda di: </p>
-                <a href="https://api.whatsapp.com/send?phone=085864772039&text=Halo" class="btn btn-confirmation">Konfirmasi Pembayaran</a>
+                <a href="https://api.whatsapp.com/send?phone=6285864772039&text=Saya%20mau%20melakukan%20konfirmasi%20pembayaran.%0A%0ANama%20%3A%20<?= $_SESSION["nama"] ?>%0AProduk%20%3A%20Aplikasi%20Kasir%0ANama%20Usaha%20%3A%20<?= $_SESSION["nama_usaha"] ?>%0AEmail%20%3A%20<?= $_SESSION["email"] ?>" class="btn btn-confirmation" target="blank">Konfirmasi Pembayaran</a>
               </div>
             </div>
           </div>

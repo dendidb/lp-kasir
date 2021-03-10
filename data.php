@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$name = $_POST['nama'];
 	$telepon = $_POST["telepon"];
 	$company = $_POST["nama_usaha"];
-	$address = $_POST["email"];
+	$email = $_POST["email"];
 // Session for checkout success
 	$_SESSION["nama"] = $name;
 	$_SESSION["telepon"] = $telepon;
