@@ -147,10 +147,14 @@
       font-size: 14px;
     }
   }
-
   /* /problem area */
 
   /* question area */
+  @media (max-width: 991.98px) {
+    .question-card {
+      margin: 20px;
+    }
+  }
   @media (max-width: 575.88px) {
     .question-area {
       padding: 40px 0;
@@ -159,9 +163,16 @@
       padding: 0 20px;
       font-size: 32px;
     }
-
     .question-card {
       margin: 14px;
+    }
+  }
+  @media (max-width: 320px) {
+    .question-title {
+      font-size: 24px;
+    }
+    .bottom-text {
+      font-size: 24px;
     }
   }
   /* /question area */
@@ -201,6 +212,9 @@
   .solution-list span {
     font-size: 18px;
   }
+  .solution-txt {
+    padding-left: 0;
+  }
 }
 @media (max-width: 575.86px) {
   .solution-area {
@@ -213,12 +227,6 @@
    line-height: 26px;
    font-size: 16px;
  }
-}
-
-@media (max-width: 360px) {
-  .solution-txt {
-    padding-left: 0;
-  }
 }
 
 @media (max-width: 320px) {
@@ -374,12 +382,6 @@
   }
 }
 
-@media only screen and (max-width: 360px) {
-  .suitable-card {
-    margin: 20px 0;
-  }
-}
-
 @media (max-width: 320px) {
   .suitable-card {
     margin: 0 0 20px;
@@ -469,7 +471,7 @@
 
 @media (max-width: 320px) {
   .testimonials-title {
-    font-size: 26px;
+    font-size: 24px;
     margin: 0 0 20px;
   }
   .span-green {
@@ -484,14 +486,27 @@
 
 /* /testimonials area*/
 
+/* menu area */
+@media (max-width: 320px) {
+  .menu-title {
+    font-size: 24px;
+  }
+}
+/* /menu area */
+
 /* benefits area  */
 @media (max-width: 991.98px) {
-  .benefits-area {
-
-  }
-
   .benefits-img {
     display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .benefits-title {
+    font-size: 24px;
+  }
+  .benefits-list {
+    font-size: 14px;
   }
 }
 /* /benefits area  */
@@ -514,8 +529,11 @@
   .documentations-img {
     min-height: 240px;
   }
+  .documentations-title {
+    font-size: 24px;
+  }
   .documentations-card {
-    padding: 8px 8px 60px;
+    padding: 8px 8px 0;
     min-height: 40px;
   }
 }
@@ -550,6 +568,10 @@
   .input-item,
   .btn-form {
     min-width: 120px;
+  }
+  .form-heading,
+  .form-title {
+    font-size: 24px;
   }
 }
 /* /form area */
@@ -603,10 +625,15 @@
 @media (max-width: 320px) {
   .footer-area {
     padding: 14px 0;
+    font-size: 16px;
   }
   .footer-social {
     margin: 0;
     display: inline-block;
+  }
+  .copyright {
+    font-size: 18px;
+    color: #fff;
   }
   .fab {
     font-size: 20px;
