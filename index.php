@@ -578,7 +578,7 @@
   <div class="footer-area">
     <div class="container">
       <div class="row">
-        <p class="copyright" data-aos="fade-down" data-aos-delay="400">&copy; 2021 Aplikasi Kasir by RZF Software</p>
+        <p class="copyright">&copy; 2021 Aplikasi Kasir by RZF Software</p>
       </div>
     </div>
   </div>
