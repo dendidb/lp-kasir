@@ -175,6 +175,7 @@
     }
     .solution-img {
       width: 100%;
+      padding: 0 30px;
     }
     .solution-img img {
       display: block;
@@ -261,6 +262,9 @@
 @media (max-width: 575.88px) {
   .top-feature-menu {
     margin: 40px 0;
+  }
+  .top-feature-list {
+    font-size: 16px;
   }
 }
 

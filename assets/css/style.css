@@ -410,11 +410,13 @@ body {
 .solution-img {
   width: 50%;
   float: left;
+  padding: 60px 20px;
 }
 
 .solution-txt {
   width: 50%;
   float: right;
+  padding-left: 30px;
 }
 
 .solution-menu {
@@ -490,7 +492,7 @@ body {
 }
 
 .top-feature-list {
-  margin: 0 0 20px;
+  margin: 0 0 32px;
   line-height: 1.6;
   font-size: 21px;
   position: relative;
