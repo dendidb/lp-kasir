@@ -150,6 +150,22 @@
 
   /* /problem area */
 
+  /* question area */
+  @media (max-width: 575.88px) {
+    .question-area {
+      padding: 40px 0;
+    }
+    .question-title {
+      padding: 0 20px;
+      font-size: 32px;
+    }
+
+    .question-card {
+      margin: 14px;
+    }
+  }
+  /* /question area */
+
   /* solution area */
 
   @media (max-width: 991.98px) {
@@ -235,7 +251,7 @@
     width: 100%;
   }
   .top-feature-list {
-    font-size: 18px;
+    font-size: 14px;
   }
   .top-feature-list span {
     /*top: 65px;*/
@@ -522,6 +538,31 @@
 }
 /* /form area */
 
+/* confirmations area */
+@media (max-width: 991.98px) {
+  .confirmation-area {
+    padding: 0;
+  }
+  .confirmation-inner-content {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 575.88px) {
+  .confirmation-inner-content {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .confirmation-inner-content {
+    padding: 40px 20px 80px;
+  }
+}
+
+
+/* /confirmations area */
+
 /* footer area */
 
 @media (max-width: 991.98px) {
@@ -532,12 +573,15 @@
 
 @media (max-width: 575.88px) {
   .footer-area {
-    padding: 20px 0;
+    padding: 14px 0;
   }
   .copyright {
-    text-align: center;
-    padding: 24px 0;
-  }
+   text-align: center; 
+   padding: 24px 0;
+   font-size: 22px;
+   color: #fff;
+   line-height: 1.5;
+ }
 }
 
 @media (max-width: 320px) {

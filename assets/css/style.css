@@ -388,6 +388,11 @@ body {
   font-weight: 400;
 }
 
+.bottom-text span {
+  color: #318c17;
+  font-weight: bold;
+}
+
 /* /question area */
 
 /* solution area */
@@ -512,6 +517,7 @@ body {
   background: #eff5ef url(../img/icons/circle-half-2.png);
   background-repeat: no-repeat;
   background-size: auto 40%;
+  line-height: 1.5;
   background-position: bottom right;
 }
 
@@ -1307,6 +1313,90 @@ textarea {
 }
 
 /* /form area */
+
+/* confirmation-area */
+.confirmation-area {
+  text-align: center;
+  padding: 0 320px;
+  margin: 0 auto;
+  background-color: #eff5ef;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+.confirmation-inner-content {
+  margin: 0 auto;
+  padding: 60px;
+  max-width: 780px;
+  min-height: 100vh;
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 5px rgb(75, 93, 104, .1);
+  -moz-box-shadow: 0 5px 5px rgb(75, 93, 104, .1);
+  -o-box-shadow: 0 5px 5px rgb(75, 93, 104, .1);
+  -ms-box-shadow: 0 5px 5px rgb(75, 93, 104, .1);
+  box-shadow: 0 5px 5px rgb(75, 93, 104, .1);
+}
+
+.heading-inner-text h3 {
+  margin: 0 0 20px;
+}
+
+.order-detail-info {
+  padding: 20px 0;
+}
+
+.order-detail-info p {
+  margin: 0 0 20px;
+}
+
+.order-detail-transfer {
+  padding: 20px;
+  border: 1px dashed #444;
+  margin: 0 0 20px;
+}
+
+.order-detail-transfer img {
+  display: block;
+  padding: 0 60px;
+  width: 420px;
+  margin: 0 auto 40px;
+}
+
+.transfer-info {
+  margin: 0 0 20px;
+  color: #323232;
+}
+
+.transfer-info:last-child {
+  margin-bottom: 0;
+}
+
+.confirmation-link p {
+  color: #323232;
+  margin: 0 0 32px;
+}
+
+.btn-confirmation {
+  min-width: 100%;
+  background-color: #318C17;
+  border: solid 1px transparent;
+  color: #fff;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.btn-confirmation:hover {
+  background-color: transparent;
+  border: solid 1px #318C17;
+  color: #318C17;
+
+}
+
+
+/* /confirmation-area */
 
 /* footer area */
 .footer-area {
