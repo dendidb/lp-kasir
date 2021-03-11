@@ -43,7 +43,7 @@
   }
   .banner-title {
     line-height: 1.5;
-    font-size: 38px;
+    font-size: 48px;
   }
   .btn-primary {
     font-size: 16px;
@@ -60,6 +60,9 @@
   .banner-heading {
     font-size: 24px;
   }
+  .banner-title {
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 575.86px) {
@@ -74,6 +77,9 @@
   .banner-heading {
     font-size: 16px;
   }
+  .banner-title {
+    font-size: 36px;
+  }
   .btn {
     width: 100%;
     margin: 0 0 32px;
@@ -86,9 +92,6 @@
   }
 }
 @media (max-width: 320px) {
-  .banner-title {
-    font-size: 24px;
-  }
   .btn-primary {
     font-size: 12px;
   }
@@ -455,6 +458,14 @@
   }
 }
 
+@media (max-width: 575.88px) {
+  .main-title {
+    font-size: 36px;
+  }
+  .main-sub-title {
+    font-size: 40px;
+  }
+}
 @media (max-width: 320px) {
   .main-title {
     font-size: 32px;
@@ -500,6 +511,10 @@
   .item-text {
     font-size: 12px;
   }
+}
+
+.testimonials-area::before {
+  display: none;
 }
 
 @media (max-width: 575.88px) {
