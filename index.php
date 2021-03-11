@@ -557,10 +557,10 @@
             <input type="text" name="nama" placeholder="Nama Anda" autocomplete="off" class="input-item" required="required"/>
           </div>
           <div class="input-row">
-            <input type="textarea" name="telepon" placeholder="Nama Usaha" rows="5" autocomplete="off" class="input-item" required="required"/>
+            <input type="textarea" name="nama_usaha" placeholder="Nama Usaha" rows="5" autocomplete="off" class="input-item" required="required"/>
           </div>
           <div class="input-row">
-            <input type="text" name="nama_usaha" placeholder="Jenis Usaha" autocomplete="off" class="input-item" required="required"/>
+            <input type="text" name="jenis_usaha" placeholder="Jenis Usaha" autocomplete="off" class="input-item" required="required"/>
           </div>
           <div class="input-row">
             <input type="text" name="email" placeholder="Email Anda" autocomplete="off" class="input-item" required="required"/>
