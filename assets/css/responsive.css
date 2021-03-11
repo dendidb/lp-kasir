@@ -37,102 +37,109 @@
     text-align: left;
     font-size: 20px;
   }
-  .banner-quest {
+  .banner-heading {
     font-size: 16px;
     line-height: 1.5;
   }
   .banner-title {
     line-height: 1.5;
-    font-size: 32px;
+    font-size: 38px;
   }
-/*  .banner-desc {
+  .btn-primary {
     font-size: 16px;
-    }*/
-    .btn-primary {
-      font-size: 16px;
-    }
   }
-  @media (max-width:767.98px) {
-    .banner-area {
-      padding: 40px 0 40px;
-    }
-    .banner-text {
-      width: 100%;
-      font-size: 20px;
-    }
-    .banner-quest {
-      font-size: 16px;
+}
+@media (max-width:767.98px) {
+  .banner-area {
+    padding: 40px 0 40px;
+  }
+  .banner-text {
+    width: 100%;
+    font-size: 20px;
+  }
+  .banner-heading {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 575.86px) {
+  .banner-area {
+    width: 100%;
+    padding: 40px 0 40px;
+  }
+  .banner-text {
+    width: 100%;
+    font-size: 18px;
+  }
+  .banner-heading {
+    font-size: 16px;
+  }
+  .btn {
+    width: 100%;
+    margin: 0 0 32px;
+  }
+  .btn:last-child {
+    margin-bottom: 0;
+  }
+  .btn-primary {
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px) {
+  .banner-title {
+    font-size: 24px;
+  }
+  .btn-primary {
+    font-size: 12px;
+  }
+  .banner-heading {
+    font-size: 12px;
+  }
+}
+/* /banner area */
+
+/* /problem area */
+@media (max-width:1199.98px) {
+  .problem-area {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width:991.98px) {
+  .problem-area {
+    padding: 40px 0;
+  }
+  .problem-text {
+    width: 100%;
+  }
+  .problem-menu {
+    padding: 0;
+  }
+  .problem-list span {
+    font-size: 18px;
+  }
+  .problem-img {
+    display: none;
+  }
+
+  @media (max-width: 575.88px) {
+    .span-green {
+      font-size: 32px;
     }
   }
 
   @media (max-width: 575.86px) {
-    .banner-area {
-      width: 100%;
-      padding: 40px 0 40px;
-    }
-    .banner-text {
-      width: 100%;
-      font-size: 18px;
-    }
-    .banner-quest {
-      font-size: 14px;
-    }
-    .btn {
-      width: 100%;
-      margin: 0 0 32px;
-    }
-    .btn:last-child {
-      margin-bottom: 0;
-    }
-    .btn-primary {
-      font-size: 16px;
-    }
-  }
-  @media (max-width: 320px) {
-    .banner-title {
-      font-size: 24px;
-    }
-/*  .banner-desc {
-    font-size: 14px;
-    line-height: 1.8;
-    }*/
-    .btn-primary {
-      font-size: 12px;
-    }
-  }
-  /* /banner area */
-
-  /* /problem area */
-  @media (max-width:1199.98px) {
     .problem-area {
       padding: 40px 0;
     }
-  }
-
-  @media (max-width:991.98px) {
-    .problem-area {
-      padding: 40px 0;
-    }
-    .problem-text {
-      width: 100%;
+    .span-green {
+      font-size: 32px;
     }
     .problem-title {
       font-size: 32px;
     }
-    .problem-menu {
-      padding: 0;
-    }
-    .problem-list span {
-      font-size: 18px;
-    }
-    .problem-img {
-      display: none;
-    }
-  }
-
-  @media (max-width: 575.86px) {
-    .problem-area {
-      padding: 40px 0;
+    .span-green {
+      font-size: 34px;
     }
   }
 
@@ -142,6 +149,12 @@
     }
     .problem-title {
       font-size: 24px;
+    }
+    .problem-title {
+      font-size: 32px;
+    }
+    .span-green {
+      font-size: 32px;
     }
     .problem-list span {
       font-size: 14px;
@@ -165,6 +178,9 @@
     }
     .question-card {
       margin: 14px;
+    }
+    .bottom-text {
+      font-size: 32px;
     }
   }
   @media (max-width: 320px) {
@@ -280,6 +296,9 @@
   .top-feature-list {
     font-size: 16px;
   }
+  .top-feature-title {
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -309,7 +328,8 @@
   }
   .obstacle-title {
     margin: 0 0 20px;
-    font-size: 24px;
+    font-size: 42px;
+    text-align: center;
   }
   .row {
     text-align: center;
@@ -319,6 +339,12 @@
   }
   .obstacle-card {
     margin: 0 auto 20px;
+  }
+}
+
+@media (max-width: 575.88px) {
+  .obstacle-title {
+    font-size: 32px;
   }
 }
 
@@ -365,6 +391,7 @@
 
 /* suitable area */
 
+
 @media (max-width: 767.98px) {
   .suitable-area {
     padding: 20px 24px;
@@ -379,6 +406,12 @@
   }
   .suitable-card img {
     width: 100%;
+  }
+}
+
+@media (max-width: 575.88px) {
+  .suitable-title {
+    font-size: 32px;
   }
 }
 
@@ -450,7 +483,7 @@
 /* /sale area */
 
 /* testimonials area*/
-@media (max-width: 575.86px) {
+@media (max-width: 575.88px) {
   .testimonials-area .owl-carousel {
     padding: 0;
   }
@@ -469,15 +502,16 @@
   }
 }
 
+@media (max-width: 575.88px) {
+  .testimonials-title {
+    font-size: 32px;
+  }
+}
+
 @media (max-width: 320px) {
   .testimonials-title {
     font-size: 24px;
     margin: 0 0 20px;
-  }
-  .span-green {
-    color: #318C17;
-    font-size: 26px;
-    font-weight: 600;
   }
   .item-desc {
     font-size: 14px;
@@ -487,17 +521,29 @@
 /* /testimonials area*/
 
 /* menu area */
+@media (max-width: 575.88px) {
+  .menu-title {
+    font-size: 32px;
+  }
+}
 @media (max-width: 320px) {
   .menu-title {
     font-size: 24px;
   }
 }
+
 /* /menu area */
 
 /* benefits area  */
 @media (max-width: 991.98px) {
   .benefits-img {
     display: none;
+  }
+}
+
+@media (max-width: 575.88px) {
+  .benefits-title {
+    font-size: 32px;
   }
 }
 
@@ -523,6 +569,11 @@
   .documentations-card {
     padding: 8px 8px 60px;
     min-height: 40px;
+  }
+}
+@media (max-width: 575.88px) {
+  .documentations-title {
+    font-size: 32px;
   }
 }
 @media (max-width: 320px) {
@@ -561,6 +612,15 @@
   }
   .btn-form {
     min-width: 220px;
+  }
+}
+
+@media (max-width: 575.88px) {
+  .form-heading {
+    font-size: 32px;
+  }
+  .form-title {
+    font-size: 26px;
   }
 }
 
@@ -616,7 +676,7 @@
   .copyright {
    text-align: center; 
    padding: 24px 0;
-   font-size: 22px;
+   font-size: 16px;
    color: #fff;
    line-height: 1.5;
  }

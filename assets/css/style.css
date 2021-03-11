@@ -67,6 +67,11 @@ body {
   line-height: 1.5;
 }
 
+html {
+  scroll-behavior: smooth;
+  transition: all .6s ease;
+}
+
 .container {
   width: 100%;
   max-width: 1120px;
@@ -182,7 +187,7 @@ body {
   width: 100%;
 }
 
-.banner-quest {
+.banner-heading {
   font-size: 28px;
   font-weight: 400;
   color: #fff;
@@ -679,7 +684,6 @@ body {
   position: absolute;
   z-index: 4;
   display: block;
-  bottom: 0;
   left: 20px;
   padding: 12px 0;
   bottom: 8px;
@@ -688,6 +692,7 @@ body {
 .suitable-info h3 {
   margin: 0;
   color: #fff;
+  letter-spacing: 0.2px;
   font-weight: 600;
 }
 
@@ -793,14 +798,6 @@ body {
   background-color: transparent;
 }
 
-.btn-sale::before {
-  content: '\f232';
-  font-family: fontawesome;
-  color: #323232;
-  font-size: 16px;
-  margin-right: 8px;
-}
-
 .btn-sale:hover::before {
   color: #fff;
 }
@@ -816,14 +813,13 @@ body {
 }
 
 .testimonials-title {
-  margin: 0 0 20px;
+  margin: 0 0 32px;
   font-size: 42px;
   font-weight: 600;
   text-align: center;
 }
 
 .testimonials-area .owl-carousel {
-  /*background-color: #318C17;*/
   -webkit-border-radius: 24px;
   -moz-border-radius: 24px;
   -o-border-radius: 24px;
@@ -858,11 +854,6 @@ body {
   -o-border-radius: 20px;
   -ms-border-radius: 20px;
   border-radius: 20px;
-  /*-webkit-transform: scale(.8);
-  -moz-transform: scale(.8);
-  -o-transform: scale(.8);
-  -ms-transform: scale(.8);
-  transform: scale(.8);*/
   -webkit-transition: all .4s ease;
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
@@ -922,6 +913,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.2px;
   color: #313131;
+  font-weight: 500;
   margin: 0 0 24px;
 }
 
@@ -930,7 +922,9 @@ body {
   font-size: 14px;
 }
 .item-info:nth-child(2) {
+  letter-spacing: 0.2px;
   color: #318C17;
+  font-weight: 600;
 }
 
 .item-info:last-child {
@@ -1118,7 +1112,7 @@ body {
 .benefits-title {
   text-align: center;
   font-size: 42px;
-  margin: 0 0 60px;
+  margin: 0 0 32px;
   font-weight: 600;
   color: #323232;
 }
@@ -1173,7 +1167,7 @@ body {
   font-size: 42px;
   color: #323232;
   font-weight: 600;
-  margin: 0 0 34px;
+  margin: 0 0 32px;
 }
 
 .documentations-card {
@@ -1236,7 +1230,7 @@ body {
 }
 
 .form-heading {
-  margin: 0 0 48px;
+  margin: 0 0 32px;
   font-size: 42px;
   color: #323232;
   font-weight: 600;
@@ -1296,11 +1290,12 @@ body {
   border-color: #318C17;
 }
 
-textarea {
+.textarea {
   border: 1px solid rgba(0,0,0,.1);
   resize: none;
-  overflow: auto;
+  overflow: none;
   min-width: 480px;
+  min-height: 180px;
   padding: 12px;
   line-height: 1.8;
   outline: 0;
@@ -1311,11 +1306,6 @@ textarea {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 0 5px 5px rgb(75, 93, 104, .1);
-  -moz-box-shadow: 0 5px 5px rgb(75, 93, 104, .1);
-  -o-box-shadow: 0 5px 5px rgb(75, 93, 104, .1);
-  -ms-box-shadow: 0 5px 5px rgb(75, 93, 104, .1);
-  box-shadow: 0 5px 5px rgb(75, 93, 104, .1);
 }
 
 .btn-form {

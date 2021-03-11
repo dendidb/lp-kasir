@@ -19,9 +19,9 @@
   <div class="banner-area" data-aos="fade" data-aos-delay="400">
     <div class="container">
       <div class="banner-text">
-        <h3 class="banner-quest" data-aos="zoom-out-down" data-aos-delay="500">Software Aplikasi Kasir Toko dan Mini Market</h3>
+        <h3 class="banner-heading" data-aos="zoom-out-down" data-aos-delay="500">Software Aplikasi Kasir Toko dan Mini Market</h3>
         <h2 class="banner-title" data-aos="fade-down" data-aos-delay="700">Solusi mengelola toko menjadi lebih mudah dengan dana murah</h2>
-        <a href="https://api.whatsapp.com/send?phone=6285864772039&text=Halo%20RZF%20Software,%20Saya%20ingin%20promo%20Aplikasi%20Kasirnya" class="btn btn-banner" data-aos="fade-down" data-aos-delay="1300">Ya, Saya Mau</a>
+        <a href="#order" class="btn btn-banner" data-aos="fade-down" data-aos-delay="1300" >Ya, Saya Mau</a>
       </div>
     </div>
   </div>
@@ -149,7 +149,7 @@
             <li class="solution-list" data-aos="fade-down" data-aos-duration="900"><span>Tampilan menarik sehingga mudah digunakan</span></li>
             <li class="solution-list" data-aos="fade-down" data-aos-duration="900"><span>Fitur lengkap untuk layanan dan laporan</span></li>
             <li class="solution-list" data-aos="fade-down" data-aos-duration="900"><span>Team Support yang profesional,  ramah dan menyenangkan</span></li>
-            <li class="solution-list" data-aos="fade-down" data-aos-duration="900"><span>Support semua hardware perangkat aplikasi</span></li>
+            <li class="solution-list" data-aos="fade-down" data-aos-duration="900"><span>Support semua perangkat hardware kasir</span></li>
           </ul>
         </div>
       </div>
@@ -242,15 +242,15 @@
       <div class="main-sale-area">
         <h3 class="main-title" data-aos="fade-up" data-aos-delay="700">Diskon</h3>
         <h2 class="main-subtitle" data-aos="zoom-out" data-aos-delay="700">40%</h2>
-        <p class="price" data-aos="fade-down" data-aos-delay="200"><del>Rp 2.600.000.00-,</del></p>
+        <p class="price" data-aos="fade-down" data-aos-delay="200"><del>Rp 2.600.000-,</del></p>
         <p class="discount" data-aos="fade-down" data-aos-delay="200">Rp 1.650.000-,</p>
         <p class="limited" data-aos="zoom-out-right">** promo terbatas</p>
       </div>
       <div class="desc-sale-area">
         <h3 class="title-sale" data-aos="zoom-in-up" data-aos-delay="700">Promo Eksklusif</h3>
-        <p class="desc-sale" data-aos="zoom-out-right" data-aos-delay="700">Dapatkan promo diskon terbatas dari kami, klik dapatkan promo di bawah!</p>
-        <a href="https://api.whatsapp.com/send?phone=6285864772039&text=Halo%20RZF%20Software,%20Saya%20ingin%20promo%20Aplikasi%20Kasirnya" class="btn btn-sale" data-aos="zoom-in-up" data-aos-delay="700">
-        Dapatkan Promo</a>
+        <p class="desc-sale" data-aos="zoom-out-right" data-aos-delay="700">Dapatkan promo diskon terbatas dari kami, klik tombol di bawah!</p>
+        <a href="#order" class="btn btn-sale" data-aos="zoom-in-up" data-aos-delay="700">Ya, Saya Mau
+        </a>
       </div>
     </div>
   </div>
@@ -547,26 +547,29 @@
   <!-- documentations area -->
 
   <!--  form area -->
-  <div class="form-area">
+  <div class="form-area" id="order">
     <div class="container">
       <h3 class="form-heading" data-aos="zoom-in-right" data-aos-duration="900">Pesan Aplikasi Kasir toko dan mini market sekarang</h3>
       <div class="form-section">
         <form action="konfirmasi-pembayaran.php" method="POST" class="form-input" data-aos="fade-up" data-aos-duration="1300">
           <h3 class="form-title">Data Penerima :</h3>
           <div class="input-row">
-            <input type="text" name="nama"  placeholder="Nama Anda" autocomplete="off" class="input-item" required="required"/>
+            <input type="text" name="nama" placeholder="Nama Anda" autocomplete="off" class="input-item" required="required"/>
           </div>
           <div class="input-row">
-            <input type="textarea" name="telepon"  placeholder="No. WhatsApp Anda" rows="5" autocomplete="off" class="input-item" required="required"/>
+            <input type="textarea" name="telepon" placeholder="Nama Usaha" rows="5" autocomplete="off" class="input-item" required="required"/>
           </div>
           <div class="input-row">
-            <input type="text" name="nama_usaha"  placeholder="Jenis Usaha" autocomplete="off" class="input-item" required="required"/>
+            <input type="text" name="nama_usaha" placeholder="Jenis Usaha" autocomplete="off" class="input-item" required="required"/>
           </div>
           <div class="input-row">
-            <input type="text" name="email"  placeholder="Alamat Email Anda" autocomplete="off" class="input-item" required="required"/>
+            <input type="text" name="email" placeholder="Email Anda" autocomplete="off" class="input-item" required="required"/>
+          </div>
+          <div class="input-row">
+            <textarea name="address" rows="6" class="input-item textarea" placeholder="Alamat Lengkap" required="required"></textarea>
           </div>
           <div class="input-row button">
-            <button type="submit" class="btn btn-form">Beli Sekarang</button>
+            <button type="submit" class="btn btn-form" target="blank">Beli Sekarang</button>
           </div>
         </form>
       </div>
