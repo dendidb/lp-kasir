@@ -4,6 +4,18 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, user-scalable=no"/>
+  <meta property="og:image" content="http://www.rzfsoftware.com/promo-aplikasi-kasir/assets/img/default/share.png"/>
+  <meta name="description" content="Dapatkan Promo Terbatas dari kami."/>
+  <meta name="keywords" content="aplikasi kasir, kasir pintar, aplikasi kasir kuningan"/>
+  <meta name="twitter:title" content="Aplikasi Kasir by RZF Software | Mempermudah Layanan Kasir Anda"/>
+  <meta name="twitter:description" content="Dapatkan Promo Terbatas dari kami."/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta property="og:locale" content="id_ID"/>
+  <meta property="og:type" content="website"/>
+  <meta property="article:section" content="Main"/>
+  <meta property="og:title" content="Aplikasi Kasir by RZF Software | Mempermudah Layanan Kasir Anda"/>
+  <meta property="og:description" content="Dapatkan Promo Terbatas dari kami."/>
+  <meta property="og:image:type" content="image/jpeg"/>
   <link rel="shortcut icon" href="assets/img/logo/favicon.png"/>
   <link rel="stylesheet" href="assets/css/normalize.css"/>
   <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css"/>
@@ -33,7 +45,7 @@
               </div>
               <div class="confirmation-link">
                 <p>Jika telah melakukan transaksi pembayaran, silakan konfirmasi pembayaran Anda di: </p>
-                <a href="https://api.whatsapp.com/send?phone=6285864772039&text=Saya%20mau%20melakukan%20konfirmasi%20pembayaran.%0A%0ANama%20%3A%20<?= $_SESSION["nama"] ?>%0AProduk%20%3A%20Aplikasi%20Kasir%0ANama%20Usaha%20%3A%20<?= $_SESSION["nama_usaha"] ?>%0AJenis%20Usaha%20%3A%20<?= $_SESSION["jenis_usaha"] ?>%0AEmail%20%3A%20<?= $_SESSION["email"] ?>%0AAlamat%20%3A%20<?= $_SESSION["alamat"] ?>" class="btn btn-confirmation" target="_blank">Konfirmasi Pembayaran</a>
+                <a href="https://api.whatsapp.com/send?phone=6285864772042&text=Saya%20mau%20melakukan%20konfirmasi%20pembayaran.%0A%0ANama%20%3A%20<?= $_SESSION["nama"] ?>%0AProduk%20%3A%20Aplikasi%20Kasir%0ANama%20Usaha%20%3A%20<?= $_SESSION["nama_usaha"] ?>%0AJenis%20Usaha%20%3A%20<?= $_SESSION["jenis_usaha"] ?>%0AEmail%20%3A%20<?= $_SESSION["email"] ?>%0AAlamat%20%3A%20<?= $_SESSION["alamat"] ?>" class="btn btn-confirmation" target="_blank">Konfirmasi Pembayaran</a>
               </div>
             </div>
           </div>

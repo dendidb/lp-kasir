@@ -25,6 +25,33 @@
 
 /* /container area */
 
+/* column */
+@media(max-width: 991.98px) {
+  .col-md-4 {
+    width: 33%;
+  }
+}
+
+@media(max-width: 767.98px) {
+  .col-3 {
+    width: 100%;
+  }
+}
+
+@media(max-width: 575.88px) {
+  .col-md-4 {
+
+  }
+}
+
+@media(max-width: 320px) {
+  .col-md-4 {
+
+  }
+}
+
+/* /column */
+
 /* banner area */
 
 @media (max-width: 991.98px ) {
@@ -181,6 +208,9 @@
     }
     .question-card {
       margin: 14px;
+    }
+    .question-text p {
+      font-size: 16px;
     }
     .bottom-text {
       font-size: 32px;
@@ -357,13 +387,12 @@
   }
   .obstacle-card {
     width: 50%;
-    /*margin: 0 auto 20px;*/
   }
 }
 
 @media (max-width: 575.86px) {
   .col-4 {
-    width: 100%;
+    width: 50%;
   }
   .obstacle-title {
     margin: 0 0 32px;
@@ -378,9 +407,6 @@
 }
 
 @media (max-width: 320px) {
-  .col-4 {
-    width: 100%;
-  }
   .obstacle-card {
     margin: 0 auto 20px;
     width: 100%;
@@ -403,9 +429,6 @@
     margin: 0 0 20px;
     font-size: 24px;
     text-align: center;
-  }
-  .col-4 {
-    width: 100%;
   }
   .suitable-card img {
     width: 100%;
@@ -579,10 +602,10 @@
     /*background-color: salmon;*/
   }
   .documentations-img {
-    min-height: 240px;
+    min-height: 40px;
   }
   .documentations-card {
-    padding: 8px 8px 60px;
+    padding: 8px;
     min-height: 40px;
   }
 }
@@ -590,20 +613,54 @@
   .documentations-title {
     font-size: 32px;
   }
+  .documentations-img {
+    min-height: 140px;
+  }
 }
 @media (max-width: 320px) {
-  .documentations-img {
-    min-height: 240px;
-  }
   .documentations-title {
     font-size: 24px;
   }
   .documentations-card {
-    padding: 8px 8px 0;
+    margin: 8px;
+    padding: 8px;
+    min-height: 40px;
+  }
+  .documentations-img {
     min-height: 40px;
   }
 }
 /* /documentations area */
+
+/* cs area */
+@media(max-width: 991.98px) {
+  .cs-image {
+    display: none;
+  }
+  .cs-text {
+    width: 100%;
+  }
+  .whatsapp-detail {
+    display: none;
+  }
+  .whatsapp-button {
+    left: 21px;
+    bottom: 24px;
+  }
+}
+
+@media(max-width: 767.98px) {
+    .cs-text {
+        width: 50%;
+    }
+}
+
+@media(max-width: 575.88px) {
+    .cs-text {
+        width: 100%;
+    }
+}
+/* /cs area */
 
 /* form area */
 @media (max-width: 1165px) {
@@ -671,8 +728,10 @@
   .confirmation-inner-content {
     padding: 40px 20px 80px;
   }
+  .btn-confirmation {
+    font-size: 14px;
+  }
 }
-
 
 /* /confirmations area */
 
@@ -681,6 +740,9 @@
 @media (max-width: 991.98px) {
   .footer-area {
     padding: 40px 0;
+  }
+  .fab {
+    padding: 14px;
   }
 }
 

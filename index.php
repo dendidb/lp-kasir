@@ -4,6 +4,18 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, user-scalable=no"/>
+  <meta property="og:image" content="http://www.rzfsoftware.com/lpkasir/assets/img/default/share.png"/>
+  <meta name="description" content="Dapatkan Promo terbatas dari Kami untuk Aplikasi Kasir toko Anda."/>
+  <meta name="keywords" content="aplikasi kasir, kasir pintar, aplikasi kasir kuningan"/>
+  <meta name="twitter:title" content="Aplikasi Kasir by RZF Software | Mempermudah Layanan Kasir Anda"/>
+  <meta name="twitter:description" content="Dapatkan Promo terbatas dari Kami untuk Aplikasi Kasir toko Anda."/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta property="og:locale" content="id_ID"/>
+  <meta property="og:type" content="website"/>
+  <meta property="article:section" content="Main"/>
+  <meta property="og:title" content="Aplikasi Kasir by RZF Software | Mempermudah Layanan Kasir Anda"/>
+  <meta property="og:description" content="Dapatkan Promo terbatas dari Kami untuk Aplikasi Kasir toko Anda."/>
+  <meta property="og:image:type" content="image/jpeg"/>
   <link rel="shortcut icon" href="assets/img/logo/favicon.png"/>
   <link rel="stylesheet" href="assets/css/normalize.css"/>
   <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css"/>
@@ -13,6 +25,17 @@
   <link rel="stylesheet" href="assets/css/style.css"/>
   <link rel="stylesheet" href="assets/css/responsive.css"/>
   <title>Aplikasi Kasir by RZF Software | Mempermudah Layanan Kasir Anda</title>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77764103-1">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-77764103-1');
+  </script>
 </head>
 <body>
   <!-- banner area -->
@@ -21,7 +44,7 @@
       <div class="banner-text">
         <h3 class="banner-heading" data-aos="zoom-out-down" data-aos-delay="500">Software Aplikasi Kasir Toko dan Mini Market</h3>
         <h2 class="banner-title" data-aos="fade-down" data-aos-delay="700">Solusi mengelola toko menjadi lebih mudah dengan dana murah</h2>
-        <a href="#order" class="btn btn-banner" data-aos="fade-down" data-aos-delay="1300" >Ya, Saya Mau</a>
+        <a href="#quest" class="btn btn-banner" data-aos="fade-down" data-aos-delay="1300" >Ya, Saya Mau</a>
       </div>
     </div>
   </div>
@@ -51,7 +74,7 @@
     <div class="container">
       <div class="row">
         <h3 class="question-title" data-aos="zoom-in-right" data-aos-duration="800">Apakah Anda yakin mau mempertahankan <span>cara lama,</span> dengan penjualan <span>tradisional?</span></h3>
-        <div class="col-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="col-3 col-md-3" data-aos="fade-up" data-aos-duration="1000">
           <div class="question-card">
             <div class="question-img">
               <img src="assets/img/question/notes.svg" alt="Notes Image"/>
@@ -61,7 +84,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4" data-aos="fade-up" data-aos-duration="1100">
+        <div class="col-3 col-md-3" data-aos="fade-up" data-aos-duration="1100">
           <div class="question-card">
             <div class="question-img">
               <img src="assets/img/question/calculator.svg" alt="Calculator Image"/>
@@ -71,7 +94,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4" data-aos="fade-up" data-aos-duration="1200">
+        <div class="col-3 col-md-3" data-aos="fade-up" data-aos-duration="1200">
           <div class="question-card">
             <div class="question-img">
               <img src="assets/img/question/book.svg" alt="Book Image"/>
@@ -95,37 +118,37 @@
         <h3 class="obstacle-title "data-aos="zoom-in-right" data-aos-duration="1200">Saya sudah pernah pakai program, tapi?</h3>
       </div>
       <div class="row">
-        <div class="col-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="col-md-3 col-3" data-aos="fade-up" data-aos-delay="500">
           <div class="obstacle-card">
             <img src="assets/img/obstacle/cross.svg" class="obstacle-icon" alt="Cross Image"/>
             <h2 class="obstacle-item">Tampilan kurang menarik</h2>
           </div>
         </div>
-        <div class="col-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="col-md-3 col-3" data-aos="fade-up" data-aos-delay="500">
           <div class="obstacle-card">
             <img src="assets/img/obstacle/confused.svg" class="obstacle-icon" alt="Confused Image"/>
             <h2 class="obstacle-item">Tidak mudah dipahami</h2>
           </div>
         </div>
-        <div class="col-4" data-aos="fade-up" data-aos-delay="600">
+        <div class="col-md-3 col-3" data-aos="fade-up" data-aos-delay="600">
           <div class="obstacle-card">
             <img src="assets/img/obstacle/display.svg" class="obstacle-icon" alt="Display Image"/>
             <h2 class="obstacle-item">Fitur tidak lengkap</h2>
           </div>
         </div>
-        <div class="col-4" data-aos="fade-up" data-aos-delay="700">
+        <div class="col-md-3 col-3" data-aos="fade-up" data-aos-delay="700">
           <div class="obstacle-card" >
             <img src="assets/img/obstacle/error.svg" class="obstacle-icon" alt="Error Image"/>
             <h2 class="obstacle-item">Banyak error</h2>
           </div>
         </div>
-        <div class="col-4" data-aos="fade-up" data-aos-delay="800">
+        <div class="col-md-3 col-3" data-aos="fade-up" data-aos-delay="800">
           <div class="obstacle-card" >
             <img src="assets/img/obstacle/angry.svg" class="obstacle-icon" alt="Angry Image"/>
             <h2 class="obstacle-item">CS support susah dihubungi</h2>
           </div>
         </div>
-        <div class="col-4" data-aos="fade-up" data-aos-delay="900">
+        <div class="col-md-3 col-3" data-aos="fade-up" data-aos-delay="900">
           <div class="obstacle-card" >
             <img src="assets/img/obstacle/face-to-face.svg" class="obstacle-icon" alt="Face Image"/>
             <h2 class="obstacle-item">Pelayanan kurang maksimal</h2>
@@ -146,7 +169,7 @@
         <h3 class="solution-title" data-aos="zoom-in-right" data-aos-duration="1200">Tenang, kami punya <span class="span-green"> solusinya..</span></h3>
         <ul class="solution-menu">
           <li class="solution-list" data-aos="fade-down" data-aos-duration="900"><span>Software aplikasi yang praktis</san></li>
-            <li class="solution-list" data-aos="fade-down" data-aos-duration="900"><span>Tampilan menarik sehingga mudah digunakan</span></li>
+            <li class="solution-list" data-aos="fade-down" data-aos-duration="900"><span>Tampilan menarik dan mudah digunakan</span></li>
             <li class="solution-list" data-aos="fade-down" data-aos-duration="900"><span>Fitur lengkap untuk layanan dan laporan</span></li>
             <li class="solution-list" data-aos="fade-down" data-aos-duration="900"><span>Team Support yang profesional,  ramah dan menyenangkan</span></li>
             <li class="solution-list" data-aos="fade-down" data-aos-duration="900"><span>Support semua perangkat hardware kasir</span></li>
@@ -183,7 +206,7 @@
     <div class="container">
       <h3 class="suitable-title "data-aos="zoom-in-right" data-aos-duration="1200">Cocok Untuk Usaha</h3>
       <div class="row">
-        <div class="col-4">
+        <div class="col-md-3 col-3 col-md-4">
           <div class="suitable-card" data-aos="fade-up" data-aos-delay="600">
             <img src="assets/img/suitable/1.jpg" alt="Retail"/>
             <div class="suitable-info">
@@ -191,7 +214,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-md-3 col-3 col-md-4">
           <div class="suitable-card" data-aos="fade-up" data-aos-delay="700">
             <img src="assets/img/suitable/2.jpg" alt="Farmasi"/>
             <div class="suitable-info">
@@ -199,7 +222,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-md-3 col-3 col-md-4">
           <div class="suitable-card" data-aos="fade-up" data-aos-delay="800">
             <img src="assets/img/suitable/3.jpg" alt="Banngunan Retail"/>
             <div class="suitable-info">
@@ -207,7 +230,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-md-3 col-3 col-md-4">
           <div class="suitable-card" data-aos="fade-up" data-aos-delay="900">
             <img src="assets/img/suitable/6.jpg" alt="Manufaktur"/>
             <div class="suitable-info">
@@ -215,7 +238,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-md-3 col-3 col-md-4">
           <div class="suitable-card" data-aos="fade-up" data-aos-delay="1000">
             <img src="assets/img/suitable/5.jpg" alt="Apotik"/>
             <div class="suitable-info">
@@ -223,7 +246,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-md-3 col-3 col-md-4">
           <div class="suitable-card" data-aos="fade-up" data-aos-delay="1100">
             <img src="assets/img/suitable/7.jpg" alt="Konveksi"/>
             <div class="suitable-info">
@@ -240,16 +263,16 @@
   <div class="sale-area">
     <div class="container">
       <div class="main-sale-area">
-        <h3 class="main-title" data-aos="fade-up" data-aos-delay="700">Diskon</h3>
-        <h2 class="main-subtitle" data-aos="zoom-out" data-aos-delay="700">40%</h2>
-        <p class="price" data-aos="fade-down" data-aos-delay="200"><del>Rp 2.600.000-,</del></p>
-        <p class="discount" data-aos="fade-down" data-aos-delay="200">Rp 1.650.000-,</p>
-        <p class="limited" data-aos="zoom-out-right">** promo terbatas</p>
+        <h3 class="main-title" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400"></h3>
+        <h2 class="main-subtitle" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">40%</h2>
+        <p class="price" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200"><del>Rp 2.600.000-,</del></p>
+        <p class="discount" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">Rp 1.650.000-,</p>
+        <p class="limited" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">** promo terbatas</p>
       </div>
       <div class="desc-sale-area">
-        <h3 class="title-sale" data-aos="zoom-in-up" data-aos-delay="700">Promo Eksklusif</h3>
-        <p class="desc-sale" data-aos="zoom-out-right" data-aos-delay="700">Dapatkan promo diskon terbatas dari kami, klik tombol di bawah!</p>
-        <a href="#order" class="btn btn-sale" data-aos="zoom-in-up" data-aos-delay="700">Ya, Saya Mau
+        <h3 class="title-sale" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">Promo Eksklusif</h3>
+        <p class="desc-sale" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">Dapatkan promo terbatas dari kami, klik tombol di bawah!</p>
+        <a href="#quest" class="btn btn-sale" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">Ya, Saya Mau
         </a>
       </div>
     </div>
@@ -497,48 +520,67 @@
   <!-- documentations area -->
   <div class="documentations-area">
     <div class="container">
-      <h3 class="documentations-title">Dokumentasi Instalasi Aplikasi</h3>
-      <div class="documentations-carousel">
-        <div class="documentations-item">
-          <div class="documentations-card">
-            <div class="documentations-img">
-              <img src="assets/img/documentations/1.png" alt="Documentations Image"/>
-            </div>
+      <h3 class="documentations-title" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">Dokumentasi Instalasi Aplikasi</h3>
+      <div class="col-4 col-md-4">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/1.png" alt="Documentations Image"/>
           </div>
         </div>
-        <div class="documentations-item">
-          <div class="documentations-card">
-            <div class="documentations-img">
-              <img src="assets/img/documentations/2.png" alt=""/>
-            </div>
+      </div>
+      <div class="col-4 col-md-4">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/2.png" alt=""/>
           </div>
         </div>
-        <div class="documentations-item">
-          <div class="documentations-card">
-            <div class="documentations-img">
-              <img src="assets/img/documentations/3.png" alt=""/>
-            </div>
+      </div>
+      <div class="col-4 col-md-4">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="500">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/3.png" alt=""/>
           </div>
         </div>
-        <div class="documentations-item">
-          <div class="documentations-card">
-            <div class="documentations-img">
-              <img src="assets/img/documentations/4.png" alt=""/>
-            </div>
+      </div>
+      <div class="col-4 col-md-4">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/4.png" alt=""/>
           </div>
         </div>
-        <div class="documentations-item">
-          <div class="documentations-card">
-            <div class="documentations-img">
-              <img src="assets/img/documentations/5.png" alt=""/>
-            </div>
+      </div>
+      <div class="col-4 col-md-4">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/5.png" alt=""/>
           </div>
         </div>
-        <div class="documentations-item">
-          <div class="documentations-card">
-            <div class="documentations-img">
-              <img src="assets/img/documentations/7.png" alt=""/>
-            </div>
+      </div>
+      <div class="col-4 col-md-4">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/6.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 col-md-4">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/7.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 col-md-4">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/8.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 col-md-4">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/9.png" alt=""/>
           </div>
         </div>
       </div>
@@ -546,8 +588,23 @@
   </div>
   <!-- documentations area -->
 
+  <!-- cs area -->
+  <div class="cs-area" id="quest">
+    <div class="container">
+      <div class="cs-image" data-aos="zoom-in-right" data-aos-duration="900">
+        <img src="assets/img/question/hub.png" alt="Hubungi">
+      </div>
+      <div class="cs-text">
+        <h2 data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">Cari tahu bagaimana Kami bisa membantu usaha Anda</h2>
+        <p data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">Kami dapat membantu Anda untuk mengenal kami lebih baik dengan menyediakan langkah-langkah menggunakan Aplikasi kami.</p>
+        <a href="https://api.whatsapp.com/send?phone=085864772042&text=Saya%20tertarik%20untuk%20membeli%20produk%20ini." class="btn primary btn-cs" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">Hubungi CS Kami</a>
+      </div>
+    </div>
+  </div>
+  <!-- /cs area -->
+
   <!--  form area -->
-  <div class="form-area" id="order">
+  <div class="form-area">
     <div class="container">
       <h3 class="form-heading" data-aos="zoom-in-right" data-aos-duration="900">Pesan Aplikasi Kasir toko dan mini market sekarang</h3>
       <div class="form-section">
@@ -575,7 +632,14 @@
       </div>
     </div>
   </div>
+
   <!--  /form area -->
+  <div class="whatsapp-button-area">
+    <a href="https://api.whatsapp.com/send?phone=085864772042&text=Saya%20tertarik%20untuk%20membeli%20produk%20ini." class="whatsapp-button" target="_blank"><i class="fab fa-whatsapp"></a></i>
+    <div class="whatsapp-detail">
+      <span>Chat dengan Kami</span>
+    </div>
+  </div>
 
   <!-- footer area  -->
   <div class="footer-area">
@@ -586,6 +650,7 @@
     </div>
   </div>
   <!-- /footer area  -->
+  
   <script src="assets/js/jquery-2.2.4.min.js"></script>
   <script src="assets/js/aos.js"></script>
   <script src="assets/js/owl.carousel.min.js"></script>

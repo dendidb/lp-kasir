@@ -22,20 +22,20 @@
 }
 
 @font-face {
-    font-family: 'poppinsregular';
-    font-weight: normal;
-    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
-         url('../fonts/poppins-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'poppinsregular';
+  font-weight: normal;
+  src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+  url('../fonts/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'poppinsthin';
-    src: url('../fonts/poppins-thin-webfont.woff2') format('woff2'),
-         url('../fonts/poppins-thin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'poppinsthin';
+  src: url('../fonts/poppins-thin-webfont.woff2') format('woff2'),
+  url('../fonts/poppins-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -77,6 +77,12 @@ html {
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 16px;
+}
+
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 ::-moz-selection {
@@ -139,6 +145,21 @@ html {
 }
 .col-12{
   width:  100.3333333%
+}
+
+.col-md-3 {
+  width: 33.3333333%;
+}
+@media(max-width: 991.98px) {
+  .col-md-4 {
+    width: 50%;
+  }
+}
+
+@media(max-width: 557.88px) {
+  .col-md-4 {
+    width: 33.3333333%;
+  }
 }
 
 .btn {
@@ -832,7 +853,7 @@ html {
 .testimonials-area::before {
   content: '"';
   font-size: 24em;
-  color: #CBE0CB;
+  color: #cbe0cb;
   opacity: .3;
   left: 20px;
   top: -40px;
@@ -1017,6 +1038,10 @@ html {
   right: 0;
 }
 
+.documentations-area {
+  background-color: #eff5ef;
+}
+
 .documentations-area .owl-prev::after,
 .documentations-area .owl-next::after {
   top: 90%;
@@ -1031,6 +1056,57 @@ html {
 }
 
 /* documentations area */
+
+
+/* cs-area */
+.cs-area {
+  padding: 40px 0;
+}
+
+.cs-image {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+.cs-image img {
+  display: block;
+  width: 400px;
+}
+
+.cs-text {
+  padding: 40px 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  margin: 0;
+}
+
+.cs-text h2 {
+  margin: 0 0 20px;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.cs-text p {
+  line-height: 1.5;
+  margin: 0 0 32px;
+}
+
+.btn-cs {
+  background-color: #318c17;
+  color: #fff;
+  text-decoration: none;
+  border-color: #318c17;
+}
+
+.btn-cs:hover {
+  background-color: transparent;
+  color: #318c17;
+  border-color: #318c17;
+}
+/* /cs-area */
+
 
 /* menu area */
 .menu-area {
@@ -1170,12 +1246,17 @@ html {
   margin: 0 0 32px;
 }
 
+.documentations-item {
+  display: inline-block;
+}
+
 .documentations-card {
   overflow: hidden;
   min-height: 180px;
+  display: inline-block;
   background-color: #fff;
   padding: 12px 8px 60px;
-  margin: 20px;
+  margin: 14px;
   -webkit-box-shadow: 0 5px 5px rgb(75, 93, 104, .1);
   -moz-box-shadow: 0 5px 5px rgb(75, 93, 104, .1);
   -o-box-shadow: 0 5px 5px rgb(75, 93, 104, .1);
@@ -1414,8 +1495,58 @@ html {
 
 }
 
-
 /* /confirmation-area */
+
+/* whatsapp button */
+
+.whatsapp-button-area {
+  position: relative;
+}
+
+.whatsapp-button {
+  position: fixed;
+  z-index: 3;
+  left: 35px;
+  bottom: 55px;
+  text-decoration: none; 
+}
+
+.whatsapp-detail {
+  position: fixed;
+  bottom: 48px;
+  left: 110px;
+  background-color: #444;
+  padding: 12px;
+  border-radius: 8px;
+  min-width: 120px;
+  z-index: 8;
+}
+
+.whatsapp-detail::before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: -2;
+  left: -7px;
+  width: 12px;
+  height: 12px;
+  padding: 6px 12px;
+  top: 16px;
+  background-color: #444;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.whatsapp-detail span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* /whatsapp button*/
 
 /* footer area */
 .footer-area {
@@ -1452,9 +1583,9 @@ html {
 }
 
 .fab {
-  font-size: 20px;
+  font-style: normal;
+  font-size: 24px;
   text-decoration: none;
-  color: #318C17;
   -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
   -moz-box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
   -o-box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
@@ -1465,7 +1596,8 @@ html {
   width: 40px;
   height: 40px;
   padding: 18px;
-  background-color: #F6F6F6;
+  background-color: #318C17;
+  color: #F6F6F6;
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
   -o-transition: all 300ms linear;
@@ -1473,55 +1605,46 @@ html {
 }
 
 .fab:hover{
-  background-color: #318C17;
-  color: #FFF;
+  transform: translateY(-3px);
 }
 
-/*.fab:last-child {
-  content: '\f0ac';
-  font-size: 18px;
+.footer-navigation{
+  padding: 40px 0;
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  width: 194px;
+}
+
+.footer-navigation:last-child{
+  margin-right: 0;
+}
+
+.footer-navigation-title{
+  padding: 0 18px;
+  margin: 0 0 20px 0;
+}
+
+.footer-navigation li{
+  padding: 10px 0 12px 18px;
+}
+
+.footer-navigation a{
+  color: #4F5665;
+  text-decoration: none;
+}
+.footer-navigation a:hover{
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
   color: #318C17;
-  font-family:'fontawesome';
-  }*/
+}
 
-
-  .footer-navigation{
-    padding: 40px 0;
-    list-style-type: none;
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 16px;
-    width: 194px;
-  }
-
-  .footer-navigation:last-child{
-    margin-right: 0;
-  }
-
-  .footer-navigation-title{
-    padding: 0 18px;
-    margin: 0 0 20px 0;
-  }
-
-  .footer-navigation li{
-    padding: 10px 0 12px 18px;
-  }
-
-  .footer-navigation a{
-    color: #4F5665;
-    text-decoration: none;
-  }
-  .footer-navigation a:hover{
-    -webkit-transition: all 300ms linear;
-    -moz-transition: all 300ms linear;
-    -o-transition: all 300ms linear;
-    -ms-transition: all 300ms linear;
-    color: #318C17;
-  }
-
-  .copyright {
-    text-align: center;
-    padding: 24px 0;
-  }
+.copyright {
+  text-align: center;
+  padding: 24px 0;
+}
 
 /* /footer area */
