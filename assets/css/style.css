@@ -1512,6 +1512,12 @@ html {
 }
 
 .whatsapp-detail {
+  -webkit-transform: translateX(-8px);
+  -moz-transform: translateX(-8px);
+  -ms-transform: translateX(-8px);
+  transform: translateX(-8px);
+  opacity: 0;
+  visibility: hidden;
   position: fixed;
   bottom: 48px;
   left: 110px;
@@ -1520,6 +1526,16 @@ html {
   border-radius: 8px;
   min-width: 120px;
   z-index: 8;
+  transition: all .4s ease;
+}
+
+.whatsapp-button-area:hover .whatsapp-detail {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
 }
 
 .whatsapp-detail::before {
@@ -1533,6 +1549,10 @@ html {
   padding: 6px 12px;
   top: 16px;
   background-color: #444;
+  -webkit-border-bottom-right-radius: 50%;
+  -moz-border-bottom-right-radius: 50%;
+  -ms-border-bottom-right-radius: 50%;
+  border-bottom-right-radius: 50%;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);

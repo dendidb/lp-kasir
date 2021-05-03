@@ -1,4 +1,3 @@
-<? require 'data.php'; ?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -597,7 +596,7 @@
       <div class="cs-text">
         <h2 data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">Cari tahu bagaimana Kami bisa membantu usaha Anda</h2>
         <p data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">Kami dapat membantu Anda untuk mengenal kami lebih baik dengan menyediakan langkah-langkah menggunakan Aplikasi kami.</p>
-        <a href="https://api.whatsapp.com/send?phone=085864772042&text=Saya%20tertarik%20untuk%20membeli%20produk%20ini." class="btn primary btn-cs" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">Hubungi CS Kami</a>
+        <a href="https://api.whatsapp.com/send?phone=6285864772042&text=Hallo Admin.%0ASaya%20ingin%20bertanya%20mengenai%20Aplikasi%20Kasir%20RZF%20Software!" class="btn primary btn-cs" target="_blank" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">Hubungi CS Kami</a>
       </div>
     </div>
   </div>
@@ -606,9 +605,9 @@
   <!--  form area -->
   <div class="form-area">
     <div class="container">
-      <h3 class="form-heading" data-aos="zoom-in-right" data-aos-duration="900">Pesan Aplikasi Kasir toko dan mini market sekarang</h3>
+      <h3 class="form-heading" data-aos="zoom-in-right" data-aos-duration="900">Pesan Aplikasi Kasir Toko Dan Mini Market Sekarang</h3>
       <div class="form-section">
-        <form action="konfirmasi-pembayaran.php" method="POST" class="form-input" data-aos="fade-up" data-aos-duration="1300">
+        <form action="data.php" method="POST" class="form-input" data-aos="fade-up" data-aos-duration="1300">
           <h3 class="form-title">Data Penerima :</h3>
           <div class="input-row">
             <input type="text" name="nama" placeholder="Nama Anda" autocomplete="off" class="input-item" required="required"/>
@@ -635,7 +634,7 @@
 
   <!--  /form area -->
   <div class="whatsapp-button-area">
-    <a href="https://api.whatsapp.com/send?phone=085864772042&text=Saya%20tertarik%20untuk%20membeli%20produk%20ini." class="whatsapp-button" target="_blank"><i class="fab fa-whatsapp"></a></i>
+    <a href="https://api.whatsapp.com/send?phone=6285864772042&text=Hallo Admin.%0ASaya%20ingin%20bertanya%20mengenai%20Aplikasi%20Kasir%20RZF%20Software!" class="whatsapp-button" target="_blank"><i class="fab fa-whatsapp"></a></i>
     <div class="whatsapp-detail">
       <span>Chat dengan Kami</span>
     </div>
