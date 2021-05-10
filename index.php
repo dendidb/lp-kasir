@@ -43,7 +43,7 @@
       <div class="banner-text">
         <h3 class="banner-heading" data-aos="zoom-out-down" data-aos-delay="500">Software Aplikasi Kasir Toko dan Mini Market</h3>
         <h2 class="banner-title" data-aos="fade-down" data-aos-delay="700">Solusi mengelola toko menjadi lebih mudah dengan dana murah</h2>
-        <a href="#quest" class="btn btn-banner" data-aos="fade-down" data-aos-delay="1300" >Ya, Saya Mau</a>
+        <a href="#order" class="btn btn-banner" data-aos="fade-down" data-aos-delay="1300" >Ya, Saya Mau</a>
       </div>
     </div>
   </div>
@@ -263,15 +263,15 @@
     <div class="container">
       <div class="main-sale-area">
         <h3 class="main-title" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400"></h3>
-        <h2 class="main-subtitle" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">40%</h2>
+        <h2 class="main-subtitle" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">20%</h2>
         <p class="price" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200"><del>Rp 2.600.000-,</del></p>
-        <p class="discount" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">Rp 1.650.000-,</p>
+        <p class="discount" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">Rp 2.080.000</p>
         <p class="limited" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">** promo terbatas</p>
       </div>
       <div class="desc-sale-area">
         <h3 class="title-sale" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">Promo Eksklusif</h3>
         <p class="desc-sale" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">Dapatkan promo terbatas dari kami, klik tombol di bawah!</p>
-        <a href="#quest" class="btn btn-sale" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">Ya, Saya Mau
+        <a href="#order" class="btn btn-sale" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">Ya, Saya Mau
         </a>
       </div>
     </div>
@@ -283,6 +283,17 @@
     <div class="container">
       <h3 class="testimonials-title">Mereka yang telah menggunakan</h3>
       <div class="owl-carousel">
+        <div class="item">
+          <div class="item-img">
+            <img src="assets/img/testimonials/11.jpg" alt="Testimonials Image"/>
+          </div>
+          <div class="item-text">
+            <p class="item-desc">“Alhamdulillah sudah pakai software dari RZF utk sistem grosir dan retail, Memantau stok barang, dan keuangan semakin mudah. Bisa mencegah kebocoran dan yg penting bisa jadi data untuk analisis dlm pengambilan keputusan. Overall sangat terbantu sekali. Mantaap.”</p>
+            <p class="item-info"><b>Muhamad Fariid Nugraha</b></p>
+            <p class="item-info">Owner Optik Zolaris</p>
+            <p class="item-info">Kuningan - Jawa Barat</p>
+          </div>
+        </div>
         <div class="item">
           <div class="item-img">
             <img src="assets/img/testimonials/8.jpg" alt="Testimonials Image"/>
@@ -303,17 +314,6 @@
             <p class="item-info"><b>Roni Andrianto</b></p>
             <p class="item-info">Owner Toko Gendis</p>
             <p class="item-info">Cirebon - Jawa Barat</p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="item-img">
-            <img src="assets/img/testimonials/11.jpg" alt="Testimonials Image"/>
-          </div>
-          <div class="item-text">
-            <p class="item-desc">“Alhamdulillah sudah pakai software dari RZF utk sistem grosir dan retail, Memantau stok barang, dan keuangan semakin mudah. Bisa mencegah kebocoran dan yg penting bisa jadi data untuk analisis dlm pengambilan keputusan. Overall sangat terbantu sekali. Mantaap.”</p>
-            <p class="item-info"><b>Muhamad Fariid Nugraha</b></p>
-            <p class="item-info">Owner Optik Zolaris</p>
-            <p class="item-info">Kuningan - Jawa Barat</p>
           </div>
         </div>
         <div class="item">
@@ -588,7 +588,7 @@
   <!-- documentations area -->
 
   <!-- cs area -->
-  <div class="cs-area" id="quest">
+  <!-- <div class="cs-area" id="quest">
     <div class="container">
       <div class="cs-image" data-aos="zoom-in-right" data-aos-duration="900">
         <img src="assets/img/question/hub.png" alt="Hubungi">
@@ -599,16 +599,16 @@
         <a href="https://api.whatsapp.com/send?phone=6285864772042&text=Hallo Admin.%0ASaya%20ingin%20bertanya%20mengenai%20Aplikasi%20Kasir%20RZF%20Software!" class="btn primary btn-cs" target="_blank" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">Hubungi CS Kami</a>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- /cs area -->
 
   <!--  form area -->
-  <div class="form-area">
+  <div class="form-area" id="order">
     <div class="container">
       <h3 class="form-heading" data-aos="zoom-in-right" data-aos-duration="900">Pesan Aplikasi Kasir Toko Dan Mini Market Sekarang</h3>
       <div class="form-section">
         <form action="data.php" method="POST" class="form-input" data-aos="fade-up" data-aos-duration="1300">
-          <h3 class="form-title">Data Penerima :</h3>
+          <h3 class="form-title">Data Pemesan :</h3>
           <div class="input-row">
             <input type="text" name="nama" placeholder="Nama Anda" autocomplete="off" class="input-item" required="required"/>
           </div>
@@ -625,7 +625,7 @@
             <textarea name="address" rows="6" class="input-item textarea" placeholder="Alamat Lengkap" required="required"></textarea>
           </div>
           <div class="input-row button">
-            <button type="submit" class="btn btn-form" target="blank">Beli Sekarang</button>
+            <button type="submit" class="btn btn-form" target="blank">Kirim</button>
           </div>
         </form>
       </div>
