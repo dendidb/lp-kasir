@@ -1603,25 +1603,25 @@ html {
 }
 
 .fab {
-  font-style: normal;
-  font-size: 24px;
-  text-decoration: none;
-  -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
-  -moz-box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
-  -o-box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
-  -ms-box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
-  box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
-  margin: 0;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  padding: 18px;
-  background-color: #318C17;
-  color: #F6F6F6;
-  -webkit-transition: all 300ms linear;
-  -moz-transition: all 300ms linear;
-  -o-transition: all 300ms linear;
-  -ms-transition: all 300ms linear;
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: none;
+    -webkit-box-shadow: 0 0 3px 0 rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
+    -o-box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
+    -ms-box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
+    box-shadow: 0 0 3px 0 rgb(0 0 0 / 30%);
+    margin: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 18px;
+    background-color: #318C17;
+    color: #F6F6F6;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
 }
 
 .fab:hover{
