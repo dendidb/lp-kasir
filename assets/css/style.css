@@ -1650,10 +1650,11 @@ html {
   padding: 10px 0 12px 18px;
 }
 
-.footer-navigation a{
+.footer-navigation a {
   color: #4F5665;
   text-decoration: none;
 }
+
 .footer-navigation a:hover{
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
