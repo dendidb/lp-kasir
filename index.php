@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="assets/css/owl.carousel.min.css"/>
   <link rel="stylesheet" href="assets/css/aos.css"/>
   <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="assets/css/fancybox.min.css"/>
   <link rel="stylesheet" href="assets/css/responsive.css"/>
   <title>Aplikasi Kasir by RZF Software | Mempermudah Layanan Kasir Anda</title>
   
@@ -41,8 +42,8 @@
   <div class="banner-area" data-aos="fade" data-aos-delay="400">
     <div class="container">
       <div class="banner-text">
-        <h3 class="banner-heading" data-aos="zoom-out-down" data-aos-delay="500">Software Aplikasi Kasir Toko dan Mini Market</h3>
-        <h2 class="banner-title" data-aos="fade-down" data-aos-delay="700">Solusi mengelola toko menjadi lebih mudah dengan dana murah</h2>
+        <h3 class="banner-heading" data-aos="zoom-out-down" data-aos-delay="500">Software Aplikasi Kasir Toko dan Minimarket</h3>
+        <h2 class="banner-title" data-aos="fade-down" data-aos-delay="700">Solusi mengelola toko yang gak bikin ribet dan cocok dengan usaha Anda</h2>
         <a href="#order" class="btn btn-banner" data-aos="fade-down" data-aos-delay="1300" >Ya, Saya Mau</a>
       </div>
     </div>
@@ -182,8 +183,12 @@
   <!-- top feature area -->
   <div class="top-feature-area">
     <div class="container">
-      <div class="top-feature-img" data-aos="fade-up" data-aos-delay="1100">
+      <div class="top-feature-img" data-aos="fade-up"   data-aos-delay="1100">
         <img src="assets/img/feature/feature.png" alt="Feature"/>
+      <div class="top-feature-area-cta">
+        <a href="#order" class="btn btn-top-feature-area" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">Saya tertarik
+          </a>
+      </div>
       </div>
       <ul class="top-feature-menu">
         <h3 class="top-feature-title "data-aos="zoom-in-right" data-aos-duration="1300">Keunggulan menggunakan aplikasi dari <span class="span-green">RZF Software</span></h3>
@@ -259,7 +264,7 @@
   <!-- /suitable area -->
 
   <!-- sale area -->
-  <div class="sale-area">
+  <!-- <div class="sale-area">
     <div class="container">
       <div class="main-sale-area">
         <h3 class="main-title" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400"></h3>
@@ -275,7 +280,7 @@
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- /sale area -->
 
   <!-- testimonials area -->
@@ -495,6 +500,259 @@
   </div>
   <!-- /menu area -->
 
+  <!-- opinion-area -->
+  <div class="opinion-area">
+    <div class="container">
+      <h3 class="opinion-title">Apa Kata Mereka?</h3>
+      <div class="opinion-carousel">
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/1.jpeg">
+                <img src="assets/img/opinions/1.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/2.jpeg">
+                <img src="assets/img/opinions/2.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/3.jpeg">
+                <img src="assets/img/opinions/3.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/4.jpeg">
+                <img src="assets/img/opinions/4.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/5.jpeg">
+                <img src="assets/img/opinions/5.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/6.jpeg">
+                <img src="assets/img/opinions/6.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/7.jpeg">
+                <img src="assets/img/opinions/7.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/8.jpeg">
+                <img src="assets/img/opinions/8.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/9.jpeg">
+                <img src="assets/img/opinions/9.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/10.jpeg">
+                <img src="assets/img/opinions/10.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/11.jpeg">
+                <img src="assets/img/opinions/11.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/12.jpeg">
+                <img src="assets/img/opinions/12.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/13.jpeg">
+                <img src="assets/img/opinions/13.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/14.jpeg">
+                <img src="assets/img/opinions/14.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/15.jpeg">
+                <img src="assets/img/opinions/15.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/16.jpeg">
+                <img src="assets/img/opinions/16.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/17.jpeg">
+                <img src="assets/img/opinions/17.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/18.jpeg">
+                <img src="assets/img/opinions/18.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/19.jpeg">
+                <img src="assets/img/opinions/19.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/20.jpeg">
+                <img src="assets/img/opinions/20.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/21.jpeg">
+                <img src="assets/img/opinions/21.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/22.jpeg">
+                <img src="assets/img/opinions/22.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/23.jpeg">
+                <img src="assets/img/opinions/23.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/24.jpeg">
+                <img src="assets/img/opinions/24.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/25.jpeg">
+                <img src="assets/img/opinions/25.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/26.jpeg">
+                <img src="assets/img/opinions/26.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="opinion-box">
+          <div class="opinion-card">
+            <div class="opinion-card-img">
+              <a href="./assets/img/opinions/27.jpeg">
+                <img src="assets/img/opinions/27.jpeg" alt="Apa Kata Mereka?" />
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- opinion-area -->
+
   <!-- benefits area -->
   <div class="benefits-area">
     <div class="container">
@@ -511,6 +769,9 @@
           <li class="benefits-list" data-aos="fade-down" data-aos-duration="1300"><span>Garansi sistem selama 1 tahun</span></li>
           <li class="benefits-list" data-aos="fade-down" data-aos-duration="1400"><span>Layanan support lifetime</span></li>
         </ul>
+      </div>
+      <div class="benefits-cta">
+        <a href="#order" class="btn btn-benefits-area" data-aos="fade-down" data-aos-delay="1300" >Ya, Saya Mau</a>
       </div>
     </div>
   </div>
@@ -605,24 +866,18 @@
   <!--  form area -->
   <div class="form-area" id="order">
     <div class="container">
-      <h3 class="form-heading" data-aos="zoom-in-right" data-aos-duration="900">Pesan Aplikasi Kasir Toko Dan Mini Market Sekarang</h3>
+      <h3 class="form-heading" data-aos="zoom-in-right" data-aos-duration="900">Pesan Aplikasi Kasir Toko Dan Minimarket Sekarang</h3>
       <div class="form-section">
         <form action="data.php" method="POST" class="form-input" data-aos="fade-up" data-aos-duration="1300">
           <h3 class="form-title">Data Pemesan :</h3>
           <div class="input-row">
-            <input type="text" name="nama" placeholder="Nama Anda" autocomplete="off" class="input-item" required="required"/>
+            <input type="text" name="nama" placeholder="Nama Anda" autocomplete="off" class="input-item" required="required" autocomplete="on"/>
           </div>
           <div class="input-row">
-            <input type="textarea" name="nama_usaha" placeholder="Nama Usaha" rows="5" autocomplete="off" class="input-item" required="required"/>
+            <input type="text" name="jenis_usaha" placeholder="Jenis Usaha" autocomplete="off" class="input-item" required="required" autocomplete="on" />
           </div>
           <div class="input-row">
-            <input type="text" name="jenis_usaha" placeholder="Jenis Usaha" autocomplete="off" class="input-item" required="required"/>
-          </div>
-          <div class="input-row">
-            <input type="text" name="email" placeholder="Email Anda" autocomplete="off" class="input-item" required="required"/>
-          </div>
-          <div class="input-row">
-            <textarea name="address" rows="6" class="input-item textarea" placeholder="Alamat Lengkap" required="required"></textarea>
+            <textarea name="address" rows="6" class="input-item textarea" placeholder="Alamat" required="required" autocomplete="on"></textarea>
           </div>
           <div class="input-row button">
             <button type="submit" class="btn btn-form" target="blank">Kirim</button>
@@ -631,8 +886,8 @@
       </div>
     </div>
   </div>
-
   <!--  /form area -->
+
   <div class="whatsapp-button-area">
     <a href="https://api.whatsapp.com/send?phone=6285864772042&text=Hallo Admin.%0ASaya%20ingin%20bertanya%20mengenai%20Aplikasi%20Kasir%20RZF%20Software!" class="whatsapp-button" target="_blank"><i class="fab fa-whatsapp"></a></i>
     <div class="whatsapp-detail">
@@ -644,13 +899,14 @@
   <div class="footer-area">
     <div class="container">
       <div class="row">
-        <p class="copyright">&copy; 2021 Aplikasi Kasir by RZF Software</p>
+        <p class="copyright">&copy; Aplikasi Kasir by RZF Software</p>
       </div>
     </div>
   </div>
   <!-- /footer area  -->
   
   <script src="assets/js/jquery-2.2.4.min.js"></script>
+  <script src="assets/js/fancybox.min.js"></script>
   <script src="assets/js/aos.js"></script>
   <script src="assets/js/owl.carousel.min.js"></script>
   <script src="assets/js/script.js"></script>
