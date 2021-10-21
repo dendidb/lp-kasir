@@ -738,8 +738,16 @@ html {
 
 /* /suitable area */
 
-/* sale area */
+/* video area */
 
+.video-area {
+  background-color: salmon;
+  padding: 40px 0;
+}
+
+/* /video area */
+
+/* sale area */
 .sale-area {
   padding: 120px 0;
   background-image: -webkit-linear-gradient(140deg,

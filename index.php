@@ -263,6 +263,20 @@
   </div>
   <!-- /suitable area -->
 
+  
+  <!-- video area -->
+  <!-- <div class="video-area">
+    <div class="container">
+      <div class="video-wrapper">
+        <div class="video">
+          <video class="also-invite__video-el" controls="" autoplay="" muted="">
+            <source src="assets/video/video-konveksi.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div> -->
+  <!-- /video area -->
+  
   <!-- sale area -->
   <!-- <div class="sale-area">
     <div class="container">
