@@ -781,66 +781,108 @@
   <div class="documentations-area">
     <div class="container">
       <h3 class="documentations-title" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">Dokumentasi Instalasi Aplikasi</h3>
-      <div class="col-4 col-md-4">
+      <div class="documentations-box">
         <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">
           <div class="documentations-img">
             <img src="assets/img/documentations/1.png" alt="Documentations Image"/>
           </div>
         </div>
       </div>
-      <div class="col-4 col-md-4">
+      <div class="documentations-box">
         <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
           <div class="documentations-img">
             <img src="assets/img/documentations/2.png" alt=""/>
           </div>
         </div>
       </div>
-      <div class="col-4 col-md-4">
+      <div class="documentations-box">
         <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="500">
           <div class="documentations-img">
             <img src="assets/img/documentations/3.png" alt=""/>
           </div>
         </div>
       </div>
-      <div class="col-4 col-md-4">
+      <div class="documentations-box">
         <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">
           <div class="documentations-img">
             <img src="assets/img/documentations/4.png" alt=""/>
           </div>
         </div>
       </div>
-      <div class="col-4 col-md-4">
+      <div class="documentations-box">
         <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
           <div class="documentations-img">
             <img src="assets/img/documentations/5.png" alt=""/>
           </div>
         </div>
       </div>
-      <div class="col-4 col-md-4">
+      <div class="documentations-box">
         <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
           <div class="documentations-img">
             <img src="assets/img/documentations/6.png" alt=""/>
           </div>
         </div>
       </div>
-      <div class="col-4 col-md-4">
+      <div class="documentations-box">
         <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
           <div class="documentations-img">
             <img src="assets/img/documentations/7.png" alt=""/>
           </div>
         </div>
       </div>
-      <div class="col-4 col-md-4">
+      <div class="documentations-box">
         <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
           <div class="documentations-img">
             <img src="assets/img/documentations/8.png" alt=""/>
           </div>
         </div>
       </div>
-      <div class="col-4 col-md-4">
+      <div class="documentations-box">
         <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
           <div class="documentations-img">
             <img src="assets/img/documentations/9.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/10.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/11.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/12.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/13.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/14.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/15.png" alt=""/>
           </div>
         </div>
       </div>
