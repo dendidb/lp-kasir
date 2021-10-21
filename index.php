@@ -205,6 +205,19 @@
   </div>
   <!-- /top feature area -->
 
+  <!-- video area -->
+    <div class="video-area">
+    <div class="container">
+      <div class="video-wrapper">
+        <div class="video">
+          <video class="video-el" controls="" autoplay="" muted="">
+            <source src="./assets/video/promo-lp-kasir.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+  <!-- /video area -->
+
   <!-- suitable area -->
   <div class="suitable-area">
     <div class="container">
@@ -263,20 +276,6 @@
   </div>
   <!-- /suitable area -->
 
-  
-  <!-- video area -->
-  <!-- <div class="video-area">
-    <div class="container">
-      <div class="video-wrapper">
-        <div class="video">
-          <video class="also-invite__video-el" controls="" autoplay="" muted="">
-            <source src="assets/video/video-konveksi.mp4" type="video/mp4">
-        </video>
-      </div>
-    </div>
-  </div> -->
-  <!-- /video area -->
-  
   <!-- sale area -->
   <!-- <div class="sale-area">
     <div class="container">
@@ -753,15 +752,6 @@
             </div>
           </div>
         </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/27.jpeg">
-                <img src="assets/img/opinions/27.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -855,6 +845,146 @@
         <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
           <div class="documentations-img">
             <img src="assets/img/documentations/9.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/10.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/11.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/12.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/13.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/14.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/15.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/16.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/17.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/18.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/19.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/20.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/21.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/22.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/23.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/24.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/25.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/26.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/27.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/28.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="documentations-box">
+        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="documentations-img">
+            <img src="assets/img/documentations/29.png" alt=""/>
           </div>
         </div>
       </div>
