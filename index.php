@@ -865,41 +865,6 @@
           </div>
         </div>
       </div>
-      <div class="documentations-box">
-        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
-          <div class="documentations-img">
-            <img src="assets/img/documentations/11.png" alt=""/>
-          </div>
-        </div>
-      </div>
-      <div class="documentations-box">
-        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
-          <div class="documentations-img">
-            <img src="assets/img/documentations/12.png" alt=""/>
-          </div>
-        </div>
-      </div>
-      <div class="documentations-box">
-        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
-          <div class="documentations-img">
-            <img src="assets/img/documentations/13.png" alt=""/>
-          </div>
-        </div>
-      </div>
-      <div class="documentations-box">
-        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
-          <div class="documentations-img">
-            <img src="assets/img/documentations/14.png" alt=""/>
-          </div>
-        </div>
-      </div>
-      <div class="documentations-box">
-        <div class="documentations-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
-          <div class="documentations-img">
-            <img src="assets/img/documentations/15.png" alt=""/>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   <!-- documentations area -->
