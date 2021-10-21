@@ -110,40 +110,11 @@ $(".documentations-carousel").owlCarousel({
     }
   });
 
-//   Fancybox.bind("[data-fancybox]", {
-//     // Your options go here
-//   });
-
-//   // Change defaults
-// Fancybox.defaults.infinite = 0;
-
-// Start Fancybox with custom options when user clicks on the matching element
-// Fancybox.bind("[data-fancybox]", {
-//   infinite: false,
-// });
-
-// // Immediately start Fancybox with custom options
-// Fancybox.show(
-//   [
-//     {
-//       src: "./assets/img/opinion/opinion1.jpg",
-//       type: "image",
-//     },
-//     {
-//       src: "./assets/img/opinion/opinion2.jpg",
-//       type: "image",
-//     },
-//   ],
-//   {
-//     infinite: false,
-//   }
-// );
-
 Fancybox.bind(".opinion-area a", {
   groupAll : true, // Group all items
   on : {
     ready : (fancybox) => {
-      // console.log(`fancybox #${fancybox.id} is ready!`);
+      
     }
   }
 });
