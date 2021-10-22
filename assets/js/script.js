@@ -118,3 +118,21 @@ Fancybox.bind(".opinion-area a", {
     }
   }
 });
+
+// btn-to-top
+
+// back to top
+var btnTop = $('.js-back-to-top');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btnTop.addClass('show');
+  } else {
+    btnTop.removeClass('show');
+  }
+});
+
+btnTop.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});

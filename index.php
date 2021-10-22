@@ -43,7 +43,7 @@
     <div class="container">
       <div class="banner-text">
         <h3 class="banner-heading" data-aos="zoom-out-down" data-aos-delay="500">Software Aplikasi Kasir Toko dan Minimarket</h3>
-        <h2 class="banner-title" data-aos="fade-down" data-aos-delay="700">Solusi mengelola toko yang gak bikin ribet dan cocok dengan usaha Anda</h2>
+        <h2 class="banner-title" data-aos="fade-down" data-aos-delay="700">Solusi mengelola toko yang bikin Anda happy</h2>
         <a href="#order" class="btn btn-banner" data-aos="fade-down" data-aos-delay="1300" >Ya, Saya Mau</a>
       </div>
     </div>
@@ -206,7 +206,7 @@
   <!-- /top feature area -->
 
   <!-- video area -->
-    <div class="video-area">
+  <div class="video-area">
     <div class="container">
       <div class="video-wrapper">
         <div class="video">
@@ -216,6 +216,7 @@
       </div>
     </div>
   </div>
+</div>
   <!-- /video area -->
 
   <!-- suitable area -->
@@ -626,7 +627,7 @@
             </div>
           </div>
         </div>
-        <div class="opinion-box">
+        <!-- <div class="opinion-box">
           <div class="opinion-card">
             <div class="opinion-card-img">
               <a href="./assets/img/opinions/13.jpeg">
@@ -751,7 +752,7 @@
                 </a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -1055,7 +1056,17 @@
     </div>
   </div>
   <!-- /footer area  -->
+
+  <!-- back-to-top -->
+  <div class="back-to-top">
+    <button class="btn-top js-back-to-top" type="button">
+      <!-- <i class="fa fa-home"></i> -->
+    </button>
+  </div>
+  <!-- /back-to-top -->
+
   
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
   <script src="assets/js/jquery-2.2.4.min.js"></script>
   <script src="assets/js/fancybox.min.js"></script>
   <script src="assets/js/aos.js"></script>
