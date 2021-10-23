@@ -225,48 +225,48 @@
       <h3 class="suitable-title "data-aos="zoom-in-right" data-aos-duration="1200">Cocok Untuk Usaha</h3>
       <div class="row">
         <div class="col-md-3 col-3 col-md-4">
-          <div class="suitable-card" data-aos="fade-up" data-aos-delay="600">
-            <img src="assets/img/suitable/1.jpg" alt="Retail"/>
+          <div class="suitable-card" data-aos="fade-up">
+            <img src="assets/img/suitable/1.jpg" alt="Toko Sembako"/>
             <div class="suitable-info">
               <h3>Toko Sembako</h3>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-3 col-md-4">
-          <div class="suitable-card" data-aos="fade-up" data-aos-delay="700">
-            <img src="assets/img/suitable/2.jpg" alt="Farmasi"/>
+          <div class="suitable-card" data-aos="fade-up">
+            <img src="assets/img/suitable/2.jpg" alt="Toko Toys/Mainan"/>
             <div class="suitable-info">
               <h3>Toko Toys/Mainan</h3>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-3 col-md-4">
-          <div class="suitable-card" data-aos="fade-up" data-aos-delay="800">
-            <img src="assets/img/suitable/3.jpg" alt="Banngunan Retail"/>
+          <div class="suitable-card" data-aos="fade-up">
+            <img src="assets/img/suitable/3.jpg" alt="Toko Alat Tulis Kantor" />
             <div class="suitable-info">
               <h3>Toko Alat Tulis Kantor</h3>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-3 col-md-4">
-          <div class="suitable-card" data-aos="fade-up" data-aos-delay="900">
-            <img src="assets/img/suitable/6.jpg" alt="Manufaktur"/>
+          <div class="suitable-card" data-aos="fade-up">
+            <img src="assets/img/suitable/6.jpg" alt="Toko Fashion"/>
             <div class="suitable-info">
               <h3>Toko Fashion</h3>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-3 col-md-4">
-          <div class="suitable-card" data-aos="fade-up" data-aos-delay="1000">
-            <img src="assets/img/suitable/5.jpg" alt="Apotik"/>
+          <div class="suitable-card" data-aos="fade-up">
+            <img src="assets/img/suitable/5.jpg" alt="Toko Bangunan" />
             <div class="suitable-info">
               <h3>Toko Bangunan</h3>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-3 col-md-4">
-          <div class="suitable-card" data-aos="fade-up" data-aos-delay="1100">
-            <img src="assets/img/suitable/7.jpg" alt="Konveksi"/>
+          <div class="suitable-card" data-aos="fade-up">
+            <img src="assets/img/suitable/7.jpg" alt="Toko Meubel" />
             <div class="suitable-info">
               <h3>Toko Meubel</h3>
             </div>
@@ -276,26 +276,6 @@
     </div>
   </div>
   <!-- /suitable area -->
-
-  <!-- sale area -->
-  <!-- <div class="sale-area">
-    <div class="container">
-      <div class="main-sale-area">
-        <h3 class="main-title" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400"></h3>
-        <h2 class="main-subtitle" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">20%</h2>
-        <p class="price" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200"><del>Rp 2.600.000-,</del></p>
-        <p class="discount" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">Rp 2.080.000</p>
-        <p class="limited" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">** promo terbatas</p>
-      </div>
-      <div class="desc-sale-area">
-        <h3 class="title-sale" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">Promo Eksklusif</h3>
-        <p class="desc-sale" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">Dapatkan promo terbatas dari kami, klik tombol di bawah!</p>
-        <a href="#order" class="btn btn-sale" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">Ya, Saya Mau
-        </a>
-      </div>
-    </div>
-  </div> -->
-  <!-- /sale area -->
 
   <!-- testimonials area -->
   <div class="testimonials-area">
@@ -627,132 +607,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/13.jpeg">
-                <img src="assets/img/opinions/13.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/14.jpeg">
-                <img src="assets/img/opinions/14.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/15.jpeg">
-                <img src="assets/img/opinions/15.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/16.jpeg">
-                <img src="assets/img/opinions/16.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/17.jpeg">
-                <img src="assets/img/opinions/17.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/18.jpeg">
-                <img src="assets/img/opinions/18.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/19.jpeg">
-                <img src="assets/img/opinions/19.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/20.jpeg">
-                <img src="assets/img/opinions/20.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/21.jpeg">
-                <img src="assets/img/opinions/21.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/22.jpeg">
-                <img src="assets/img/opinions/22.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/23.jpeg">
-                <img src="assets/img/opinions/23.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/24.jpeg">
-                <img src="assets/img/opinions/24.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/25.jpeg">
-                <img src="assets/img/opinions/25.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="opinion-box">
-          <div class="opinion-card">
-            <div class="opinion-card-img">
-              <a href="./assets/img/opinions/26.jpeg">
-                <img src="assets/img/opinions/26.jpeg" alt="Apa Kata Mereka?" />
-                </a>
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
   </div>
@@ -1051,18 +905,18 @@
   <div class="footer-area">
     <div class="container">
       <div class="row">
-        <p class="copyright">&copy; Aplikasi Kasir by RZF Software</p>
+        <p class="copyright">&copy; 2021 Aplikasi Kasir by RZF Software</p>
       </div>
     </div>
   </div>
   <!-- /footer area  -->
 
   <!-- back-to-top -->
-  <div class="back-to-top">
+  <!-- <div class="back-to-top">
     <button class="btn-top js-back-to-top" type="button">
-      <!-- <i class="fa fa-home"></i> -->
+      <i class="rzf-align-top"></i>
     </button>
-  </div>
+  </div> -->
   <!-- /back-to-top -->
 
   

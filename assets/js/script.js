@@ -97,7 +97,6 @@ $(".documentations-carousel").owlCarousel({
       0: {
         items: 1,
         nav: false,
-        dots: false,
         autoplay: true,
       },
       600: {
