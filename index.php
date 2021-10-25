@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, user-scalable=no"/>
-  <meta property="og:image" content="http://www.rzfsoftware.com/lpkasir/assets/img/default/share.png"/>
-  <meta name="description" content="Dapatkan Promo terbatas dari Kami untuk Aplikasi Kasir toko Anda."/>
+      <!-- og facebook general-->
+      <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Aplikasi Kasir by RZF Software | Mempermudah Layanan Kasir Anda" />
+  <meta property="og:description" content="Solusi mengelola toko yang bikin Anda happy" />
+  <meta property="og:url" content="https://www.rzfsoftware.com/aplikasi-kasir" />
+  <meta property="og:site_name" content="https://www.rzfsoftware.com/aplikasi-kasir" />
+  <meta property="og:image" content="https://www.rzfsoftware.com/aplikasi-kasir/public/assets/img/default/share.png" />
+  <meta property="og:image:type" content="https://www.rzfsoftware.com/aplikasi-kasir/public/image/jpeg"/>
+  
+  
+  <!-- twitter card-->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aplikasi Kasir by RZF Software | Mempermudah Layanan Kasir Anda" />
+  <meta name="twitter:description" content="Solusi mengelola toko yang bikin Anda happy" />
+  <meta name="twitter:site" content="@aplikasi-kasir" />
+  <meta name="twitter:site:id" content="@aplikasi-kasir" />
+  <meta name="twitter:domain" content="https://www.rzfsoftware.com/aplikasi-kasir" />
+  <meta name="twitter:image:src" content="https://rzfkomputer.com/public/assets/img/default/share.png" />
+  <meta name="twitter:creator" content="@aplikasi-kasir" />
+  
+  <!--<meta property="og:image" content="http://www.rzfsoftware.com/aplikasi-kasir/assets/img/default/share.png"/>-->
+  
+  <meta name="description" content="Solusi mengelola toko yang bikin Anda happy"/>
   <meta name="keywords" content="aplikasi kasir, kasir pintar, aplikasi kasir kuningan"/>
   <meta name="twitter:title" content="Aplikasi Kasir by RZF Software | Mempermudah Layanan Kasir Anda"/>
-  <meta name="twitter:description" content="Dapatkan Promo terbatas dari Kami untuk Aplikasi Kasir toko Anda."/>
+  <meta name="twitter:description" content="Solusi mengelola toko yang bikin Anda happy."/>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta property="og:locale" content="id_ID"/>
   <meta property="og:type" content="website"/>
   <meta property="article:section" content="Main"/>
   <meta property="og:title" content="Aplikasi Kasir by RZF Software | Mempermudah Layanan Kasir Anda"/>
-  <meta property="og:description" content="Dapatkan Promo terbatas dari Kami untuk Aplikasi Kasir toko Anda."/>
+  <meta property="og:description" content="Solusi mengelola toko yang bikin Anda happy"/>
   <meta property="og:image:type" content="image/jpeg"/>
   <link rel="shortcut icon" href="assets/img/logo/favicon.png"/>
   <link rel="stylesheet" href="assets/css/normalize.css"/>
@@ -54,6 +74,7 @@
 
     gtag('config', 'UA-77764103-1');
   </script>
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="139b8f57-4444-4b70-bc3c-938a3a1b0ac0";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 </head>
 <body>
   <!-- banner area -->
@@ -936,7 +957,6 @@
     </button>
   </div> -->
   <!-- /back-to-top -->
-
   
   <script src="assets/js/jquery-3.6.0.min.js"></script>
   <script src="assets/js/jquery-2.2.4.min.js"></script>

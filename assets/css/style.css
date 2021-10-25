@@ -1726,3 +1726,11 @@ html {
   transform: scale(1);
 }
 /* /footer area */
+
+.crisp-client .cc-kv6t .cc-1ybb {
+  background-image: linear-gradient(125deg, #24c54c -10%, #118337 100%) !important;
+}
+
+.crisp-client .cc-kv6t .cc-1ada, .crisp-client .cc-kv6t .cc-ew5j:before, .crisp-client .cc-kv6t .cc-ew5j:after {
+  background-color: #389a4d !important;
+}
